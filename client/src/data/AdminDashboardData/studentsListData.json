@@ -1,0 +1,903 @@
+[
+  {
+      "StudentId": "PolyStudent001",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Mednine",
+      "yearResult": 11.5,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent002",
+      "classLabel": "1INFO",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Ben Arous",
+      "yearResult": 17.3,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent003",
+      "classLabel": "1INFO",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Kairouan",
+      "yearResult": 11,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent004",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Female",
+      "town": "Nabeul",
+      "yearResult": 9.3,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent005",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Sousse",
+      "yearResult": 17.4,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent006",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Female",
+      "town": "Nabeul",
+      "yearResult": 10.1,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent007",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Zaghouan",
+      "yearResult": 12.4,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent008",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Female",
+      "town": "Ben Arous",
+      "yearResult": 9.1,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent009",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Female",
+      "town": "Kef",
+      "yearResult": 9.5,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent010",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Siliana",
+      "yearResult": 18,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent011",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Mednine",
+      "yearResult": 12.8,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent012",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Ben Arous",
+      "yearResult": 17.3,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent013",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Beja",
+      "yearResult": 17,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent014",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Zaghouan",
+      "yearResult": 14.2,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent015",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Jendouba",
+      "yearResult": 18.1,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent016",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Female",
+      "town": "Mahdia",
+      "yearResult": 12.9,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent017",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "B\u00e9ja",
+      "yearResult": 16.8,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent018",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Female",
+      "town": "B\u00e9ja",
+      "yearResult": 17.1,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent019",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Male",
+      "town": "Tozeur",
+      "yearResult": 17.5,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent020",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpA",
+      "gender": "Female",
+      "town": "Kairouan",
+      "yearResult": 13.7,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent001",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "B\u00e9ja",
+      "yearResult": 10.1,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent002",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Female",
+      "town": "Zaghouan",
+      "yearResult": 15.4,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent003",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Female",
+      "town": "Sousse",
+      "yearResult": 12,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent004",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "Kef",
+      "yearResult": 18.6,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent005",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "Siliana",
+      "yearResult": 15.1,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent006",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "Sidi Bouzid",
+      "yearResult": 9.2,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent007",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Female",
+      "town": "Jendouba",
+      "yearResult": 18.2,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent008",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "Monastir",
+      "yearResult": 9.7,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent009",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Female",
+      "town": "Zaghouan",
+      "yearResult": 14.7,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent010",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "Sfax",
+      "yearResult": 9.4,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent011",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Female",
+      "town": "Mahdia",
+      "yearResult": 18,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent012",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "Gafsa",
+      "yearResult": 18.2,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent013",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "B\u00e9ja",
+      "yearResult": 9.5,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent014",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Female",
+      "town": "Beja",
+      "yearResult": 17.7,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent015",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "Jendouba",
+      "yearResult": 12.5,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent016",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "Ben Arous",
+      "yearResult": 12.6,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent017",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "Tozeur",
+      "yearResult": 11.9,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent018",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "Kasserine",
+      "yearResult": 15.6,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent019",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Female",
+      "town": "Tunis",
+      "yearResult": 16.5,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent020",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpB",
+      "gender": "Male",
+      "town": "Ben Arous",
+      "yearResult": 9.2,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent001",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Tunis",
+      "yearResult": 13.9,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent002",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Kasserine",
+      "yearResult": 15.4,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent003",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Ben Arous",
+      "yearResult": 11.9,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent004",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Tunis",
+      "yearResult": 11.4,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent005",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Sousse",
+      "yearResult": 9.6,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent006",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Zaghouan",
+      "yearResult": 12.1,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent007",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Kasserine",
+      "yearResult": 15.5,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent008",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Ben Arous",
+      "yearResult": 9.1,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent009",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Male",
+      "town": "Gabes",
+      "yearResult": 13.6,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent010",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Sfax",
+      "yearResult": 17.1,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent011",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Manouba",
+      "yearResult": 9.5,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent012",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Tunis",
+      "yearResult": 17.8,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent013",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Kasserine",
+      "yearResult": 15.4,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent014",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Sousse",
+      "yearResult": 10.6,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent015",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Female",
+      "town": "Sfax",
+      "yearResult": 18.5,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent016",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Male",
+      "town": "Beja",
+      "yearResult": 11.6,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent017",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Male",
+      "town": "Jendouba",
+      "yearResult": 17.7,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent018",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Male",
+      "town": "Mahdia",
+      "yearResult": 12.8,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent019",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Male",
+      "town": "Sfax",
+      "yearResult": 18.2,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent020",
+      "classLabel": "1LBI",
+      "groupLabel": "1LBI-GrpC",
+      "gender": "Male",
+      "town": "Bizerte",
+      "yearResult": 9.1,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent001",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Female",
+      "town": "Manouba",
+      "yearResult": 10.3,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent002",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Male",
+      "town": "Zaghouan",
+      "yearResult": 11,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent003",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Male",
+      "town": "Sfax",
+      "yearResult": 17.6,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent004",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Female",
+      "town": "Jendouba",
+      "yearResult": 15.2,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent005",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Female",
+      "town": "Kasserine",
+      "yearResult": 11.7,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent006",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Female",
+      "town": "Kairouan",
+      "yearResult": 15.9,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent007",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Male",
+      "town": "Mednine",
+      "yearResult": 15.8,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent008",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Male",
+      "town": "Manouba",
+      "yearResult": 13.9,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent009",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Female",
+      "town": "Ben Arous",
+      "yearResult": 17.5,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent010",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Female",
+      "town": "Beja",
+      "yearResult": 12.4,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent011",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Female",
+      "town": "Ariana",
+      "yearResult": 17.5,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent012",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Female",
+      "town": "Bizerte",
+      "yearResult": 13.1,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent013",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Male",
+      "town": "Tozeur",
+      "yearResult": 11.8,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent014",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Female",
+      "town": "Jendouba",
+      "yearResult": 9.9,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent015",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpA",
+      "gender": "Male",
+      "town": "Kairouan",
+      "yearResult": 9.6,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent001",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Female",
+      "town": "Tozeur",
+      "yearResult": 14.4,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent002",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Female",
+      "town": "Beja",
+      "yearResult": 12.4,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent003",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Female",
+      "town": "Tozeur",
+      "yearResult": 14.3,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent004",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Female",
+      "town": "Sfax",
+      "yearResult": 14.3,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent005",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Female",
+      "town": "Ben Arous",
+      "yearResult": 11.8,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent006",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Male",
+      "town": "Mahdia",
+      "yearResult": 11.2,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent007",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Male",
+      "town": "Kef",
+      "yearResult": 12.4,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent008",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Male",
+      "town": "Kef",
+      "yearResult": 14.4,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent009",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Male",
+      "town": "Tataouine",
+      "yearResult": 10.2,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent010",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Female",
+      "town": "Siliana",
+      "yearResult": 10,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent011",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Female",
+      "town": "Manouba",
+      "yearResult": 18.1,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent012",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Male",
+      "town": "Beja",
+      "yearResult": 13.4,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent013",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Male",
+      "town": "Beja",
+      "yearResult": 18.5,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent014",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Male",
+      "town": "Mednine",
+      "yearResult": 12.8,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent015",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpB",
+      "gender": "Female",
+      "town": "Ben Arous",
+      "yearResult": 15.9,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent001",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpC",
+      "gender": "Female",
+      "town": "B\u00e9ja",
+      "yearResult": 18.7,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent002",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpC",
+      "gender": "Female",
+      "town": "Bizerte",
+      "yearResult": 14,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent003",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpC",
+      "gender": "Female",
+      "town": "Kairouan",
+      "yearResult": 15.6,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent004",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpC",
+      "gender": "Male",
+      "town": "Gabes",
+      "yearResult": 17,
+      "active": false
+  }, 
+  {
+      "StudentId": "PolyStudent005",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpC",
+      "gender": "Male",
+      "town": "Tunis",
+      "yearResult": 14.7,
+      "active": true
+  },
+  {
+      "StudentId": "PolyStudent006",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpC",
+      "gender": "Male",
+      "town": "Mahdia",
+      "yearResult": 15.5,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent007",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpC",
+      "gender": "Male",
+      "town": "Kairouan",
+      "yearResult": 11,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent008",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpC",
+      "gender": "Male",
+      "town": "B\u00e9ja",
+      "yearResult": 12.3,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent009",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpC",
+      "gender": "Male",
+      "town": "Siliana",
+      "yearResult": 15.9,
+      "active": false
+  },
+  {
+      "StudentId": "PolyStudent010",
+      "classLabel": "2LBI",
+      "groupLabel": "2LBI-GrpC",
+      "gender": "Male",
+      "town": "Kef",
+      "yearResult": 14.6,
+      "active": true
+  }
+]
+

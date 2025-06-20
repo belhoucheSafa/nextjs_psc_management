@@ -1,0 +1,338 @@
+[
+    {
+      "ClassId": "PolyClass001",
+      "label": "1LGL",
+      "SpecialityId": "PolySpe001",
+      "numStudents": 23,
+      "specialityLabel": "LGL"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2LGL",
+      "SpecialityId": "PolySpe001",
+      "numStudents": 23,
+      "specialityLabel": "LGL"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3LGL",
+      "SpecialityId": "PolySpe001",
+      "numStudents": 22,
+      "specialityLabel": "LGL"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1LGL",
+      "SpecialityId": "PolySpe002",
+      "numStudents": 45,
+      "specialityLabel": "LGL"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2LGL",
+      "SpecialityId": "PolySpe002",
+      "numStudents": 45,
+      "specialityLabel": "LGL"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3LGL",
+      "SpecialityId": "PolySpe002",
+      "numStudents": 45,
+      "specialityLabel": "LGL"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1LGL",
+      "SpecialityId": "PolySpe003",
+      "numStudents": 78,
+      "specialityLabel": "LGL"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2LGL",
+      "SpecialityId": "PolySpe003",
+      "numStudents": 77,
+      "specialityLabel": "LGL"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3LGL",
+      "SpecialityId": "PolySpe003",
+      "numStudents": 77,
+      "specialityLabel": "LGL"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1CI-AI",
+      "SpecialityId": "PolySpe004",
+      "numStudents": 34,
+      "specialityLabel": "CI-AI"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2CI-AI",
+      "SpecialityId": "PolySpe004",
+      "numStudents": 34,
+      "specialityLabel": "CI-AI"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3CI-AI",
+      "SpecialityId": "PolySpe004",
+      "numStudents": 34,
+      "specialityLabel": "CI-AI"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1CI-AI",
+      "SpecialityId": "PolySpe005",
+      "numStudents": 82,
+      "specialityLabel": "CI-AI"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2CI-AI",
+      "SpecialityId": "PolySpe005",
+      "numStudents": 82,
+      "specialityLabel": "CI-AI"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3CI-AI",
+      "SpecialityId": "PolySpe005",
+      "numStudents": 82,
+      "specialityLabel": "CI-AI"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1CI-CYBER",
+      "SpecialityId": "PolySpe006",
+      "numStudents": 77,
+      "specialityLabel": "CI-CYBERSECURITY"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2CI-CYBER",
+      "SpecialityId": "PolySpe006",
+      "numStudents": 77,
+      "specialityLabel": "CI-CYBERSECURITY"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3CI-CYBER",
+      "SpecialityId": "PolySpe006",
+      "numStudents": 76,
+      "specialityLabel": "CI-CYBERSECURITY"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1ARCHI",
+      "SpecialityId": "PolySpe007",
+      "numStudents": 19,
+      "specialityLabel": "Architecture"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2ARCHI",
+      "SpecialityId": "PolySpe007",
+      "numStudents": 19,
+      "specialityLabel": "Architecture"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3ARCHI",
+      "SpecialityId": "PolySpe007",
+      "numStudents": 19,
+      "specialityLabel": "Architecture"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1ARCHI",
+      "SpecialityId": "PolySpe008",
+      "numStudents": 56,
+      "specialityLabel": "Architecture"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2ARCHI",
+      "SpecialityId": "PolySpe008",
+      "numStudents": 55,
+      "specialityLabel": "Architecture"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3ARCHI",
+      "SpecialityId": "PolySpe008",
+      "numStudents": 55,
+      "specialityLabel": "Architecture"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1ENG",
+      "SpecialityId": "PolySpe009",
+      "numStudents": 38,
+      "specialityLabel": "Structural Engineering"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2ENG",
+      "SpecialityId": "PolySpe009",
+      "numStudents": 37,
+      "specialityLabel": "Structural Engineering"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3ENG",
+      "SpecialityId": "PolySpe009",
+      "numStudents": 37,
+      "specialityLabel": "Structural Engineering"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1ENG",
+      "SpecialityId": "PolySpe010",
+      "numStudents": 28,
+      "specialityLabel": "Structural Engineering"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2ENG",
+      "SpecialityId": "PolySpe010",
+      "numStudents": 28,
+      "specialityLabel": "Structural Engineering"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3ENG",
+      "SpecialityId": "PolySpe010",
+      "numStudents": 28,
+      "specialityLabel": "Structural Engineering"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1BI",
+      "SpecialityId": "PolySpe011",
+      "numStudents": 100,
+      "specialityLabel": "Business Intelligence"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2BI",
+      "SpecialityId": "PolySpe011",
+      "numStudents": 99,
+      "specialityLabel": "Business Intelligence"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3BI",
+      "SpecialityId": "PolySpe011",
+      "numStudents": 99,
+      "specialityLabel": "Business Intelligence"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1MGT",
+      "SpecialityId": "PolySpe012",
+      "numStudents": 80,
+      "specialityLabel": "Management"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2MGT",
+      "SpecialityId": "PolySpe012",
+      "numStudents": 80,
+      "specialityLabel": "Management"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3MGT",
+      "SpecialityId": "PolySpe012",
+      "numStudents": 80,
+      "specialityLabel": "Management"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1BI",
+      "SpecialityId": "PolySpe013",
+      "numStudents": 55,
+      "specialityLabel": "Business Intelligence"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2BI",
+      "SpecialityId": "PolySpe013",
+      "numStudents": 54,
+      "specialityLabel": "Business Intelligence"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3BI",
+      "SpecialityId": "PolySpe013",
+      "numStudents": 54,
+      "specialityLabel": "Business Intelligence"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1PREPA-PHY",
+      "SpecialityId": "PolySpe014",
+      "numStudents": 42,
+      "specialityLabel": "Prepa-Physics"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2PREPA-PHY",
+      "SpecialityId": "PolySpe014",
+      "numStudents": 42,
+      "specialityLabel": "Prepa-Physics"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3PREPA-PHY",
+      "SpecialityId": "PolySpe014",
+      "numStudents": 41,
+      "specialityLabel": "Prepa-Physics"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1PREPA-PHY",
+      "SpecialityId": "PolySpe015",
+      "numStudents": 21,
+      "specialityLabel": "Prepa-Physics"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2PREPA-PHY",
+      "SpecialityId": "PolySpe015",
+      "numStudents": 20,
+      "specialityLabel": "Prepa-Physics"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3PREPA-PHY",
+      "SpecialityId": "PolySpe015",
+      "numStudents": 20,
+      "specialityLabel": "Prepa-Physics"
+    },
+    {
+      "ClassId": "PolyClass001",
+      "label": "1PREPA-MATH",
+      "SpecialityId": "PolySpe016",
+      "numStudents": 30,
+      "specialityLabel": "Prepa-Maths"
+    },
+    {
+      "ClassId": "PolyClass002",
+      "label": "2PREPA-MATH",
+      "SpecialityId": "PolySpe016",
+      "numStudents": 29,
+      "specialityLabel": "Prepa-Maths"
+    },
+    {
+      "ClassId": "PolyClass003",
+      "label": "3PREPA-MATH",
+      "SpecialityId": "PolySpe016",
+      "numStudents": 29,
+      "specialityLabel": "Prepa-Maths"
+    }
+  ]

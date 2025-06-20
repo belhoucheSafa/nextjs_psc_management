@@ -1,0 +1,34 @@
+[
+  {
+    "EventId": "PolyEvent001",
+    "eventLabel": "PSC Roadmap",
+    "accessStatus": "public",
+    "duration": "half day",
+    "date": "01/03/2025",
+    "participation": "FALSE"
+  },
+  {
+    "EventId": "PolyEvent002",
+    "eventLabel": "Graphic Design",
+    "accessStatus": "private",
+    "duration": "whole day",
+    "date": "29/03/2025",
+    "participation": "TRUE"
+  },
+  {
+    "EventId": "PolyEvent003",
+    "eventLabel": "Communication",
+    "accessStatus": "public",
+    "duration": "half day",
+    "date": "10/04/2025",
+    "participation": "FALSE"
+  },
+  {
+    "EventId": "PolyEvent004",
+    "eventLabel": "Sponsoring",
+    "accessStatus": "private",
+    "duration": "half day",
+    "date": "12/04/2025",
+    "participation": "TRUE"
+  }
+]

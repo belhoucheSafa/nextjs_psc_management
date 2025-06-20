@@ -1,0 +1,98 @@
+[
+    {
+      "SpecialityId": "PolySpe001",
+      "specialityLabel": "LGL",
+      "numClasses": 10,
+      "numStudents": 68
+    },
+    {
+      "SpecialityId": "PolySpe002",
+      "specialityLabel": "LGL",
+      "numClasses": 1,
+      "numStudents": 135
+    },
+    {
+      "SpecialityId": "PolySpe003",
+      "specialityLabel": "LGL",
+      "numClasses": 1,
+      "numStudents": 232
+    },
+    {
+      "SpecialityId": "PolySpe004",
+      "specialityLabel": "CI-AI",
+      "numClasses": 6,
+      "numStudents": 102
+    },
+    {
+      "SpecialityId": "PolySpe005",
+      "specialityLabel": "CI-AI",
+      "numClasses": 7,
+      "numStudents": 246
+    },
+    {
+      "SpecialityId": "PolySpe006",
+      "specialityLabel": "CI-CYBERSECURITY",
+      "numClasses": 4,
+      "numStudents": 230
+    },
+    {
+      "SpecialityId": "PolySpe007",
+      "specialityLabel": "Architecture",
+      "numClasses": 4,
+      "numStudents": 57
+    },
+    {
+      "SpecialityId": "PolySpe008",
+      "specialityLabel": "Architecture",
+      "numClasses": 10,
+      "numStudents": 166
+    },
+    {
+      "SpecialityId": "PolySpe009",
+      "specialityLabel": "Structural Engineering",
+      "numClasses": 6,
+      "numStudents": 112
+    },
+    {
+      "SpecialityId": "PolySpe010",
+      "specialityLabel": "Structural Engineering",
+      "numClasses": 5,
+      "numStudents": 84
+    },
+    {
+      "SpecialityId": "PolySpe011",
+      "specialityLabel": "Business Intelligence",
+      "numClasses": 9,
+      "numStudents": 298
+    },
+    {
+      "SpecialityId": "PolySpe012",
+      "specialityLabel": "Management",
+      "numClasses": 9,
+      "numStudents": 240
+    },
+    {
+      "SpecialityId": "PolySpe013",
+      "specialityLabel": "Business Intelligence",
+      "numClasses": 6,
+      "numStudents": 163
+    },
+    {
+      "SpecialityId": "PolySpe014",
+      "specialityLabel": "Prepa-Physics",
+      "numClasses": 1,
+      "numStudents": 125
+    },
+    {
+      "SpecialityId": "PolySpe015",
+      "specialityLabel": "Prepa-Physics",
+      "numClasses": 7,
+      "numStudents": 61
+    },
+    {
+      "SpecialityId": "PolySpe016",
+      "specialityLabel": "Prepa-Maths",
+      "numClasses": 9,
+      "numStudents": 88
+    }
+  ]

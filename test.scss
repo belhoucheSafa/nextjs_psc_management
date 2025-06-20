@@ -1,0 +1,68 @@
+// App.scss
+.app-container {
+    padding: 2rem;
+    background: linear-gradient(to bottom right, #fffbe6, #f8f8f8);
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .filters {
+    display: flex;
+    gap: 0.75rem;
+  }
+  
+  .filter-btn {
+    background: #f4f4f4;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    gap: 0.5rem;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 0.875rem;
+  }
+  
+  .icon-btn {
+    background: #f4f4f4;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 999px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

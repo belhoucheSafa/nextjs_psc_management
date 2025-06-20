@@ -1,0 +1,39 @@
+.school-performance-chart {
+  // border: 1px solid red;
+  min-height: 200px !important;
+  margin-top: -5px !important;
+  margin-left: -10px !important;
+}
+
+.chart-legend-wrapper {
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  right: 17px;
+  top: 9px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  .serie {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    .text {
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .text.students {
+      color: #ee8f1f;
+    }
+    .text.teachers {
+      color: #008ffb;
+    }
+  }
+}
+
+.apexcharts-xaxis-texts-g {
+  font-family: "Nunito", sans-serif !important;
+  color: red !important;
+}

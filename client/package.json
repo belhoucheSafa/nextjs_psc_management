@@ -1,0 +1,47 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@lottiefiles/dotlottie-react": "^0.13.3",
+    "@mui/material": "^6.4.7",
+    "@mui/styled-engine": "^7.1.1",
+    "@reduxjs/toolkit": "^2.6.1",
+    "antd": "^5.24.3",
+    "antd-style": "^3.7.1",
+    "apexcharts": "^4.7.0",
+    "axios": "^1.10.0",
+    "moment": "^2.30.1",
+    "papaparse": "^5.5.2",
+    "react": "^19.0.0",
+    "react-apexcharts": "^1.7.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.3.0",
+    "recharts": "^2.15.3",
+    "redux-thunk": "^3.1.0",
+    "sonner": "^2.0.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.15.0",
+    "sass": "^1.85.1",
+    "vite": "^6.2.0"
+  }
+}

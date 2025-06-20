@@ -1,0 +1,502 @@
+[
+    {
+      "sessionDate": "01/10/2024",
+      "presentStudents": 22,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "08/10/2024",
+      "presentStudents": 26,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "15/10/2024",
+      "presentStudents": 12,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "22/10/2024",
+      "presentStudents": 13,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "29/10/2024",
+      "presentStudents": 21,
+      "absentStudents": 2
+    },
+    {
+      "sessionDate": "05/11/2024",
+      "presentStudents": 30,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "12/11/2024",
+      "presentStudents": 22,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "19/11/2024",
+      "presentStudents": 21,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "26/11/2024",
+      "presentStudents": 14,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "03/12/2024",
+      "presentStudents": 24,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "10/12/2024",
+      "presentStudents": 25,
+      "absentStudents": 2
+    },
+    {
+      "sessionDate": "17/12/2024",
+      "presentStudents": 11,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "24/12/2024",
+      "presentStudents": 22,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "31/12/2024",
+      "presentStudents": 15,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "07/01/2025",
+      "presentStudents": 28,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "14/01/2025",
+      "presentStudents": 28,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "21/01/2025",
+      "presentStudents": 18,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "28/01/2025",
+      "presentStudents": 18,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "01/10/2024",
+      "presentStudents": 30,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "08/10/2024",
+      "presentStudents": 13,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "15/10/2024",
+      "presentStudents": 22,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "22/10/2024",
+      "presentStudents": 11,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "29/10/2024",
+      "presentStudents": 18,
+      "absentStudents": 2
+    },
+    {
+      "sessionDate": "05/11/2024",
+      "presentStudents": 17,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "12/11/2024",
+      "presentStudents": 12,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "19/11/2024",
+      "presentStudents": 21,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "26/11/2024",
+      "presentStudents": 11,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "03/12/2024",
+      "presentStudents": 24,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "10/12/2024",
+      "presentStudents": 27,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "01/10/2024",
+      "presentStudents": 18,
+      "absentStudents": 2
+    },
+    {
+      "sessionDate": "08/10/2024",
+      "presentStudents": 11,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "15/10/2024",
+      "presentStudents": 30,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "22/10/2024",
+      "presentStudents": 14,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "29/10/2024",
+      "presentStudents": 24,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "05/11/2024",
+      "presentStudents": 17,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "12/11/2024",
+      "presentStudents": 22,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "19/11/2024",
+      "presentStudents": 19,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "26/11/2024",
+      "presentStudents": 29,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "03/12/2024",
+      "presentStudents": 27,
+      "absentStudents": 2
+    },
+    {
+      "sessionDate": "10/12/2024",
+      "presentStudents": 26,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "17/12/2024",
+      "presentStudents": 16,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "24/12/2024",
+      "presentStudents": 29,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "31/12/2024",
+      "presentStudents": 30,
+      "absentStudents": 2
+    },
+    {
+      "sessionDate": "01/10/2024",
+      "presentStudents": 28,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "08/10/2024",
+      "presentStudents": 26,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "15/10/2024",
+      "presentStudents": 22,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "22/10/2024",
+      "presentStudents": 14,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "29/10/2024",
+      "presentStudents": 15,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "05/11/2024",
+      "presentStudents": 29,
+      "absentStudents": 2
+    },
+    {
+      "sessionDate": "12/11/2024",
+      "presentStudents": 24,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "19/11/2024",
+      "presentStudents": 24,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "26/11/2024",
+      "presentStudents": 30,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "03/12/2024",
+      "presentStudents": 17,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "01/10/2024",
+      "presentStudents": 27,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "08/10/2024",
+      "presentStudents": 22,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "15/10/2024",
+      "presentStudents": 25,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "22/10/2024",
+      "presentStudents": 26,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "29/10/2024",
+      "presentStudents": 29,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "05/11/2024",
+      "presentStudents": 17,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "12/11/2024",
+      "presentStudents": 14,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "19/11/2024",
+      "presentStudents": 22,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "26/11/2024",
+      "presentStudents": 18,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "03/12/2024",
+      "presentStudents": 25,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "10/12/2024",
+      "presentStudents": 28,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "17/12/2024",
+      "presentStudents": 25,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "24/12/2024",
+      "presentStudents": 21,
+      "absentStudents": 2
+    },
+    {
+      "sessionDate": "31/12/2024",
+      "presentStudents": 22,
+      "absentStudents": 2
+    },
+    {
+      "sessionDate": "07/01/2025",
+      "presentStudents": 20,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "01/10/2024",
+      "presentStudents": 19,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "08/10/2024",
+      "presentStudents": 16,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "15/10/2024",
+      "presentStudents": 18,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "22/10/2024",
+      "presentStudents": 13,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "29/10/2024",
+      "presentStudents": 16,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "05/11/2024",
+      "presentStudents": 29,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "12/11/2024",
+      "presentStudents": 18,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "19/11/2024",
+      "presentStudents": 14,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "26/11/2024",
+      "presentStudents": 16,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "03/12/2024",
+      "presentStudents": 11,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "10/12/2024",
+      "presentStudents": 30,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "17/12/2024",
+      "presentStudents": 13,
+      "absentStudents": 2
+    },
+    {
+      "sessionDate": "24/12/2024",
+      "presentStudents": 24,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "01/10/2024",
+      "presentStudents": 23,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "08/10/2024",
+      "presentStudents": 28,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "15/10/2024",
+      "presentStudents": 26,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "22/10/2024",
+      "presentStudents": 17,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "29/10/2024",
+      "presentStudents": 26,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "05/11/2024",
+      "presentStudents": 27,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "12/11/2024",
+      "presentStudents": 30,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "19/11/2024",
+      "presentStudents": 24,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "26/11/2024",
+      "presentStudents": 29,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "03/12/2024",
+      "presentStudents": 18,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "10/12/2024",
+      "presentStudents": 17,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "17/12/2024",
+      "presentStudents": 15,
+      "absentStudents": 1
+    },
+    {
+      "sessionDate": "24/12/2024",
+      "presentStudents": 23,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "31/12/2024",
+      "presentStudents": 22,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "07/01/2025",
+      "presentStudents": 22,
+      "absentStudents": 3
+    },
+    {
+      "sessionDate": "14/01/2025",
+      "presentStudents": 13,
+      "absentStudents": 4
+    },
+    {
+      "sessionDate": "21/01/2025",
+      "presentStudents": 24,
+      "absentStudents": 5
+    },
+    {
+      "sessionDate": "28/01/2025",
+      "presentStudents": 28,
+      "absentStudents": 0
+    },
+    {
+      "sessionDate": "04/02/2025",
+      "presentStudents": 13,
+      "absentStudents": 1
+    }
+  ]

@@ -1,0 +1,502 @@
+[
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "01/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "08/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "15/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "22/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "29/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "05/11/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "12/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "19/11/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "26/11/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "03/12/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "10/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "17/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "24/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "31/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "07/01/2025",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "14/01/2025",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "21/01/2025",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher051",
+      "sessionDate": "28/01/2025",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher031",
+      "sessionDate": "01/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher031",
+      "sessionDate": "08/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher031",
+      "sessionDate": "15/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher031",
+      "sessionDate": "22/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher031",
+      "sessionDate": "29/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher031",
+      "sessionDate": "05/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher031",
+      "sessionDate": "12/11/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher031",
+      "sessionDate": "19/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher031",
+      "sessionDate": "26/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher031",
+      "sessionDate": "03/12/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher031",
+      "sessionDate": "10/12/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "01/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "08/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "15/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "22/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "29/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "05/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "12/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "19/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "26/11/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "03/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "10/12/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "17/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "24/12/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher008",
+      "sessionDate": "31/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher029",
+      "sessionDate": "01/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher029",
+      "sessionDate": "08/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher029",
+      "sessionDate": "15/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher029",
+      "sessionDate": "22/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher029",
+      "sessionDate": "29/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher029",
+      "sessionDate": "05/11/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher029",
+      "sessionDate": "12/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher029",
+      "sessionDate": "19/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher029",
+      "sessionDate": "26/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher029",
+      "sessionDate": "03/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "01/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "08/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "15/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "22/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "29/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "05/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "12/11/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "19/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "26/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "03/12/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "10/12/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "17/12/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "24/12/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "31/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher034",
+      "sessionDate": "07/01/2025",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "01/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "08/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "15/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "22/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "29/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "05/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "12/11/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "19/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "26/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "03/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "10/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "17/12/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher049",
+      "sessionDate": "24/12/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "01/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "08/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "15/10/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "22/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "29/10/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "05/11/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "12/11/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "19/11/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "26/11/2024",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "03/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "10/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "17/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "24/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "31/12/2024",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "07/01/2025",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "14/01/2025",
+      "status": "TRUE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "21/01/2025",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "28/01/2025",
+      "status": "FALSE"
+    },
+    {
+      "TeacherId": "PolyTeacher048",
+      "sessionDate": "04/02/2025",
+      "status": "TRUE"
+    }
+  ]

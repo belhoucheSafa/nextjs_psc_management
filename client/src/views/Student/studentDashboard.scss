@@ -1,0 +1,541 @@
+.student-dashboard-container {
+  width: 100%;
+  height: 100%;
+  // border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+
+  .student-dashboard-section-1 {
+    width: 100%;
+    height: 80px;
+    // border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    .student-dashboard-card-wrapper {
+      height: 100%;
+      flex: 1;
+      border-radius: 9px;
+      background-color: #f7f7f7;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+      padding: 15px;
+
+      .card-right-side {
+        height: 100%;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // border: 1px solid red;
+        border-radius: 9px;
+
+        .card-img {
+          width: 35px;
+          object-fit: cover;
+        }
+        .team-members-icon {
+        }
+        .team-meetings-icon {
+          width: 36px;
+        }
+      }
+      .team-members-icon-wrapper {
+        background-color: #c5aef54f;
+      }
+      .team-meetings-icon-wrapper {
+        background-color: #f7c35b36;
+      }
+
+      .card-left-side {
+        height: 100%;
+        // border: 1px solid red;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        .top-text {
+          height: fit-content;
+          width: fit-content;
+          /* border: 1px solid red; */
+          border-radius: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 13px;
+          font-weight: 800;
+          color: #333;
+          margin-top: 2px;
+        }
+
+        .bottom-text {
+          height: fit-content;
+          width: fit-content;
+          // border: 1px solid red;
+          border-radius: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 12px;
+          font-weight: 800;
+          color: #fff;
+          padding: 2px 10px;
+        }
+        .team-members-tag {
+          background-color: #b399fa;
+          display: flex;
+          flex-direction: row;
+          gap: 3px;
+        }
+
+        .meetings-tag {
+          background-color: #f7c35b;
+          display: flex;
+          flex-direction: row;
+          gap: 6px;
+          padding-right: 4px;
+          padding-left: 8px;
+          cursor: pointer;
+          transition: padding-right 0.3s ease, background-color 0.3s ease;
+
+          border: 1px solid transparent;
+          &:hover {
+            padding-right: 8px;
+            border: 1px solid #f7c35b69;
+            background-color: #f7c35b9c;
+            .meetings-icon {
+              transform: translateX(2px);
+            }
+          }
+        }
+        .meetings-icon {
+          font-size: 13px;
+          transition: transform 0.3s ease;
+        }
+      }
+    }
+
+    /* Bottom Text Backgrounds */
+    .theme-education-text {
+      background-color: rgb(176 223 115);
+    }
+
+    .theme-environment-text {
+      background-color: #5fbf5b;
+    }
+
+    .theme-health-text {
+      background-color: #ea8921;
+    }
+
+    .theme-culture-and-sports-text {
+      background-color: #9a69dc;
+    }
+
+    /* Right Side Lighter Backgrounds */
+    .theme-education-light {
+      background-color: #ecf8e3;
+    }
+
+    .theme-environment-light {
+      background-color: #d9f3d5;
+    }
+
+    .theme-health-light {
+      background-color: #fcdcb6;
+    }
+
+    .theme-culture-and-sports-light {
+      background-color: #eeddfc;
+    }
+  }
+
+  .student-dashboard-section-2 {
+    width: 100%;
+    flex: 1;
+    // border:  1px solid rgba(165, 165, 165, 0.1411764706);
+    border-radius: 9px;
+
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 3px;
+    gap: 20px;
+
+    position: relative;
+
+      .timeline-title {
+        height: fit-content;
+        width: fit-content;
+        padding: 3px 8px;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        border-radius: 5px;
+        font-size: 13px;
+        font-weight: 800;
+        color: #3333333b;
+        background: #eaf3e7;
+      }
+
+    .text-wrapper {
+      height: 100%;
+      flex: 1;
+      // border: 1px solid red;
+      display: flex;
+      max-height: 155px;
+      // overflow: scroll;
+      flex-direction: column;
+      gap: 8px;
+      padding: 15px 10px;
+
+      .timeline-title {
+        width: 100%;
+        height: 30px;
+        // border: 1px solid red;
+      }
+
+      .psc-timeline-wrapper {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        // border: 1px solid black;
+        max-height: 100%;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+
+        & {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+
+        .timeline-item-wrapper,
+        .timeline-between-item-wrapper {
+          height: fit-content;
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          // border: 1px solid green;
+          gap: 5px;
+          .left-side {
+            height: 100%;
+            width: 23px;
+            // border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .circle-1 {
+              height: 16px;
+              width: 16px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: #fff;
+              padding: 2px;
+              border-radius: 2px;
+              box-shadow: rgb(0 0 0 / 2%) 0px 0px 0px 1px;
+
+              z-index: 1000;
+              .circle-2 {
+                width: 100%;
+                height: 100%;
+                border-radius: 2px;
+                background-color: #e6e6e6;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+            .line {
+              height: 27px;
+              width: 8px;
+              background-color: #ffff;
+              border-left: 1px solid rgb(0 0 0 / 2%);
+              border-right: 1px solid rgb(0 0 0 / 2%);
+            }
+          }
+          .right-side {
+            height: 100%;
+            flex: 1;
+            // border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            .main-title {
+              font-size: 10px;
+              font-weight: 700;
+              color: #a3a3a3;
+              margin-top: 2px;
+            }
+            .description {
+              font-size: 10px;
+              font-weight: 500;
+              color: #333;
+            }
+          }
+        }
+
+        .timeline-between-item-wrapper {
+          .left-side {
+            .circle-1 {
+              height: 15px;
+              width: 15px;
+
+              .circle-2 {
+                background-color: #87ba696e;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .bg-wrapper {
+      background-image: url("../../assets/images/bg1.png");
+      height: 100%;
+      width: 43%;
+      border-radius: 8px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      transform: scaleX(-1);
+
+      
+    }
+
+    .bg-img {
+      position: absolute;
+      object-fit: cover;
+    }
+  }
+
+  .student-dashboard-section-3 {
+    width: 100%;
+    // height: 200px;
+    height: fit-content;
+    // border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .reports-table-title {
+      height: fit-content;
+      width: 100%;
+      //   border: 1px solid red;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .left-title {
+        font-size: 14px;
+        font-weight: 800;
+        color: #a5a5a5;
+      }
+      .right-call-to-action {
+        height: 100%;
+        width: fit-content;
+        // border: 1px solid green;
+        display: flex;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        color: #a5a5a5;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.5;
+        }
+        .text {
+          font-size: 11px;
+          font-weight: 800;
+        }
+        .icon {
+          font-size: 10px;
+        }
+      }
+    }
+    .reports-table-wrapper {
+      width: 100%;
+      flex: 1;
+      // border: 1px solid green;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      //   gap: 5px;
+      .table-header {
+        width: 100%;
+        height: 35px;
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        .table-header-tag,
+        .table-header-tag-name {
+          font-size: 11px;
+          font-weight: 800;
+          color: #a5a5a5;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .table-header-tag-name {
+          align-items: center;
+          justify-content: flex-start;
+          margin-left: 10px;
+        }
+        .report-name-column-table-head {
+          flex: 1;
+          // border: 1px solid red;
+        }
+        .team-submission-column-table-head {
+          width: 120px;
+          // border: 1px solid red;
+        }
+        .tutor-decision-column-table-head {
+          width: 120px;
+          // border: 1px solid red;
+        }
+        .admin-decision-column-table-head {
+          width: 120px;
+          // border: 1px solid red;
+        }
+        .deadline-column-table-head {
+          width: 70px;
+          // border: 1px solid red;
+        }
+      }
+      .table-divider {
+        width: 99%;
+        border-top: 1px solid #a5a5a524;
+        margin: 2px auto 5px;
+        border-radius: 5px;
+      }
+      .table-body {
+        width: 100%;
+        flex: 1;
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        align-items: center;
+
+        .table-row-divider {
+          width: 99%;
+          border-top: 1px solid rgb(165 165 165 / 9%);
+          margin: 2px auto;
+          border-radius: 5px;
+        }
+        .table-body-row {
+          width: 100%;
+          height: 40px;
+          // border: 1px solid green;
+          display: flex;
+          flex-direction: row;
+          gap: 5px;
+
+          .report-name-column {
+            height: 100%;
+            // border: 1px solid blue;
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            align-items: center;
+            .report-image {
+              height: 100%;
+              width: 40px;
+              // border: 1px solid red;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              img {
+                width: 28px;
+                object-fit: cover;
+              }
+            }
+            .report-details {
+              flex: 1;
+              height: 100%;
+              // border: 1px solid red;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              gap: 1px;
+              .report-name {
+                font-size: 13px;
+                font-weight: 800;
+                color: #3f3f3f;
+              }
+              .report-type {
+                font-size: 10px;
+                font-weight: 800;
+                color: #a5a5a5;
+              }
+            }
+          }
+          .deadline-column,
+          .submission-status-column,
+          .admin-decision-column,
+          .tutor-decision-column {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .table-report-tag {
+              width: fit-content;
+              padding: 6px 10px;
+              /* height: 25px; */
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 12px;
+              font-weight: 700;
+              border-radius: 5px;
+              border-radius: 6px !important;
+              span {
+                margin-right: 2px;
+              }
+            }
+          }
+
+          .submission-status-column {
+            height: 100%;
+            // border: 1px solid blue;
+            width: 120px;
+          }
+          .admin-decision-column {
+            height: 100%;
+            // border: 1px solid blue;
+            width: 120px;
+          }
+          .tutor-decision-column {
+            height: 100%;
+            // border: 1px solid blue;
+            width: 120px;
+          }
+          .deadline-column {
+            height: 100%;
+            // border: 1px solid blue;
+            width: 70px;
+
+            .deadline-tag {
+              background-color: #ffe6e6;
+              color: #fe545c;
+            }
+          }
+        }
+      }
+    }
+  }
+}

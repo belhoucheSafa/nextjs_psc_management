@@ -1,0 +1,164 @@
+[
+    {
+      "GroupId": "PolyGrp001",
+      "label": "1LBI-GrpA",
+      "classLabel": "1LBI",
+      "numStudents": 20
+    },
+    {
+      "GroupId": "PolyGrp001",
+      "label": "1LBI-GrpB",
+      "classLabel": "1LBI",
+      "numStudents": 20
+    },
+    {
+      "GroupId": "PolyGrp001",
+      "label": "1LBI-GrpC",
+      "classLabel": "1LBI",
+      "numStudents": 20
+    },
+    {
+      "GroupId": "PolyGrp002",
+      "label": "2LBI-GrpA",
+      "classLabel": "2LBI",
+      "numStudents": 15
+    },
+    {
+      "GroupId": "PolyGrp002",
+      "label": "2LBI-GrpB",
+      "classLabel": "2LBI",
+      "numStudents": 15
+    },
+    {
+      "GroupId": "PolyGrp002",
+      "label": "2LBI-GrpC",
+      "classLabel": "2LBI",
+      "numStudents": 15
+    },
+    {
+      "GroupId": "PolyGrp003",
+      "label": "3LBI-GrpA",
+      "classLabel": "3LBI",
+      "numStudents": 16
+    },
+    {
+      "GroupId": "PolyGrp003",
+      "label": "3LBI-GrpB",
+      "classLabel": "3LBI",
+      "numStudents": 16
+    },
+    {
+      "GroupId": "PolyGrp003",
+      "label": "3LBI-GrpC",
+      "classLabel": "3LBI",
+      "numStudents": 16
+    },
+    {
+      "GroupId": "PolyGrp004",
+      "label": "1CI-AI-GrpA",
+      "classLabel": "1CI-AI",
+      "numStudents": 25
+    },
+    {
+      "GroupId": "PolyGrp004",
+      "label": "1CI-AI-GrpB",
+      "classLabel": "1CI-AI",
+      "numStudents": 25
+    },
+    {
+      "GroupId": "PolyGrp004",
+      "label": "1CI-AI-GrpC",
+      "classLabel": "1CI-AI",
+      "numStudents": 25
+    },
+    {
+      "GroupId": "PolyGrp005",
+      "label": "2CI-AI-GrpA",
+      "classLabel": "2CI-AI",
+      "numStudents": 24
+    },
+    {
+      "GroupId": "PolyGrp005",
+      "label": "2CI-AI-GrpB",
+      "classLabel": "2CI-AI",
+      "numStudents": 24
+    },
+    {
+      "GroupId": "PolyGrp005",
+      "label": "2CI-AI-GrpC",
+      "classLabel": "2CI-AI",
+      "numStudents": 24
+    },
+    {
+      "GroupId": "PolyGrp006",
+      "label": "3CI-AI-GrpA",
+      "classLabel": "3CI-AI",
+      "numStudents": 26
+    },
+    {
+      "GroupId": "PolyGrp006",
+      "label": "3CI-AI-GrpB",
+      "classLabel": "3CI-AI",
+      "numStudents": 26
+    },
+    {
+      "GroupId": "PolyGrp006",
+      "label": "3CI-AI-GrpC",
+      "classLabel": "3CI-AI",
+      "numStudents": 26
+    },
+    {
+      "GroupId": "PolyGrp007",
+      "label": "1CI-CYBER-GrpA",
+      "classLabel": "1CI-CYBER",
+      "numStudents": 30
+    },
+    {
+      "GroupId": "PolyGrp007",
+      "label": "1CI-CYBER-GrpB",
+      "classLabel": "1CI-CYBER",
+      "numStudents": 30
+    },
+    {
+      "GroupId": "PolyGrp007",
+      "label": "1CI-CYBER-GrpC",
+      "classLabel": "1CI-CYBER",
+      "numStudents": 30
+    },
+    {
+      "GroupId": "PolyGrp008",
+      "label": "2CI-CYBER-GrpA",
+      "classLabel": "2CI-CYBER",
+      "numStudents": 29
+    },
+    {
+      "GroupId": "PolyGrp008",
+      "label": "2CI-CYBER-GrpB",
+      "classLabel": "2CI-CYBER",
+      "numStudents": 28
+    },
+    {
+      "GroupId": "PolyGrp008",
+      "label": "2CI-CYBER-GrpC",
+      "classLabel": "2CI-CYBER",
+      "numStudents": 28
+    },
+    {
+      "GroupId": "PolyGrp009",
+      "label": "3CI-CYBER-GrpA",
+      "classLabel": "3CI-CYBER",
+      "numStudents": 26
+    },
+    {
+      "GroupId": "PolyGrp009",
+      "label": "3CI-CYBER-GrpB",
+      "classLabel": "3CI-CYBER",
+      "numStudents": 26
+    },
+    {
+      "GroupId": "PolyGrp009",
+      "label": "3CI-CYBER-GrpC",
+      "classLabel": "3CI-CYBER",
+      "numStudents": 26
+    }
+  ]

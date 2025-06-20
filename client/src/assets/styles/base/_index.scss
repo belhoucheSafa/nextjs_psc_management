@@ -1,0 +1,27 @@
+@use "../abstracts/colors" as *;
+@use "../abstracts/index" as *;
+// @import url('https://fonts.googleapis.com/css2?family=Signika:wght,GRAD@300..700,-30..0&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#root {
+}
+#portal {
+}

@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "your-collection-id",
+		"name": "PSC Management API",
+		"description": "API collection for PSC Management System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Admin Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"admin@psc.tn\",\n    \"password\": \"Admin@123\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/v1/users/login",
+							"protocol": "http",
+							"host": ["localhost"],
+							"port": "5000",
+							"path": ["api", "v1", "users", "login"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Teams",
+			"item": [
+				{
+					"name": "Create Team",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{admin_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"members\": [\n        {\n            \"matricule\": \"22LBI022\",\n            \"name\": \"Ali Ben Salah\",\n            \"email\": \"ali.bensalah@polytechnicien.tn\",\n            \"specialty\": \"Informatique\"\n        },\n        {\n            \"matricule\": \"23LGL012\",\n            \"name\": \"Mariem Ben Ahmed\",\n            \"email\": \"mariem.benahmed@polytechnicien.tn\",\n            \"specialty\": \"Informatique\"\n        }\n    ],\n    \"theme\": \"Education\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/v1/teams",
+							"protocol": "http",
+							"host": ["localhost"],
+							"port": "5000",
+							"path": ["api", "v1", "teams"]
+						}
+					}
+				},
+				{
+					"name": "Team Login with Code",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"accessCode\": \"{{team_access_code}}\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/v1/teams/login",
+							"protocol": "http",
+							"host": ["localhost"],
+							"port": "5000",
+							"path": ["api", "v1", "teams", "login"]
+						}
+					}
+				},
+				{
+					"name": "Get Team Details",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{team_token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5000/api/v1/teams/{{team_id}}",
+							"protocol": "http",
+							"host": ["localhost"],
+							"port": "5000",
+							"path": ["api", "v1", "teams", "{{team_id}}"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "admin_token",
+			"value": "your_admin_token_here"
+		},
+		{
+			"key": "team_token",
+			"value": "your_team_token_here"
+		},
+		{
+			"key": "team_id",
+			"value": "your_team_id_here"
+		},
+		{
+			"key": "team_access_code",
+			"value": "your_team_access_code_here"
+		}
+	]
+} 

@@ -1,0 +1,54 @@
+// .fees-status-pie-wrapper {
+//   width: 320px !important;
+//   height: 257px !important;
+//   position: absolute !important;
+//   right: -74px !important;
+// }
+
+.recharts-wrapper {
+  position: absolute !important;
+}
+// .recharts-surface {
+//   width: 131% !important;
+//   height: 128% !important;
+// }
+
+
+.customized-legend-container{
+    height: fit-content;
+    width: fit-content;
+    // border: 1px solid red;
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .legend-item{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        // border: 1px solid red;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5px;
+        .left{
+            height: 8px;
+            width: 8px;
+            background-color: black;
+            border-radius: 50%;
+        }
+        .right{
+            font-size: 12px;
+            font-weight: 800;
+            color: #333;
+            
+        }
+        .left.paid{
+            background-color: #85DB86;
+        }
+        .left.unpaid{
+            background-color: #FF444D;
+        }
+    }
+}

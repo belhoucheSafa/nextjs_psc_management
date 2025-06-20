@@ -1,0 +1,296 @@
+[
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpA-001",
+    "groupLabel": "1LBI-GrpA",
+    "TeacherId": "PolyTeacher051",
+    "numberOfSessions": 18,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpA-002",
+    "groupLabel": "1LBI-GrpA",
+    "TeacherId": "PolyTeacher031",
+    "numberOfSessions": 11,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpA-003",
+    "groupLabel": "1LBI-GrpA",
+    "TeacherId": "PolyTeacher008",
+    "numberOfSessions": 14,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpA-004",
+    "groupLabel": "1LBI-GrpA",
+    "TeacherId": "PolyTeacher029",
+    "numberOfSessions": 10,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpA-005",
+    "groupLabel": "1LBI-GrpA",
+    "TeacherId": "PolyTeacher034",
+    "numberOfSessions": 15,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpA-006",
+    "groupLabel": "1LBI-GrpA",
+    "TeacherId": "PolyTeacher049",
+    "numberOfSessions": 13,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpA-007",
+    "groupLabel": "1LBI-GrpA",
+    "TeacherId": "PolyTeacher048",
+    "numberOfSessions": 19,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpB-008",
+    "groupLabel": "1LBI-GrpB",
+    "TeacherId": "PolyTeacher023",
+    "numberOfSessions": 20,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpB-009",
+    "groupLabel": "1LBI-GrpB",
+    "TeacherId": "PolyTeacher031",
+    "numberOfSessions": 19,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpB-010",
+    "groupLabel": "1LBI-GrpB",
+    "TeacherId": "PolyTeacher051",
+    "numberOfSessions": 19,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpB-011",
+    "groupLabel": "1LBI-GrpB",
+    "TeacherId": "PolyTeacher018",
+    "numberOfSessions": 19,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpB-012",
+    "groupLabel": "1LBI-GrpB",
+    "TeacherId": "PolyTeacher049",
+    "numberOfSessions": 15,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpB-013",
+    "groupLabel": "1LBI-GrpB",
+    "TeacherId": "PolyTeacher008",
+    "numberOfSessions": 20,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-1LBI-GrpB-014",
+    "groupLabel": "1LBI-GrpB",
+    "TeacherId": "PolyTeacher040",
+    "numberOfSessions": 14,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpA-022",
+    "groupLabel": "2LBI-GrpA",
+    "TeacherId": "PolyTeacher011",
+    "numberOfSessions": 12,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpA-023",
+    "groupLabel": "2LBI-GrpA",
+    "TeacherId": "PolyTeacher045",
+    "numberOfSessions": 15,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpA-024",
+    "groupLabel": "2LBI-GrpA",
+    "TeacherId": "PolyTeacher022",
+    "numberOfSessions": 14,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpA-025",
+    "groupLabel": "2LBI-GrpA",
+    "TeacherId": "PolyTeacher037",
+    "numberOfSessions": 18,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpA-026",
+    "groupLabel": "2LBI-GrpA",
+    "TeacherId": "PolyTeacher007",
+    "numberOfSessions": 16,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpA-027",
+    "groupLabel": "2LBI-GrpA",
+    "TeacherId": "PolyTeacher044",
+    "numberOfSessions": 18,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpA-028",
+    "groupLabel": "2LBI-GrpA",
+    "TeacherId": "PolyTeacher027",
+    "numberOfSessions": 14,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpB-029",
+    "groupLabel": "2LBI-GrpB",
+    "TeacherId": "PolyTeacher005",
+    "numberOfSessions": 20,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpB-030",
+    "groupLabel": "2LBI-GrpB",
+    "TeacherId": "PolyTeacher012",
+    "numberOfSessions": 17,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpB-031",
+    "groupLabel": "2LBI-GrpB",
+    "TeacherId": "PolyTeacher002",
+    "numberOfSessions": 18,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpB-032",
+    "groupLabel": "2LBI-GrpB",
+    "TeacherId": "PolyTeacher040",
+    "numberOfSessions": 18,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpB-033",
+    "groupLabel": "2LBI-GrpB",
+    "TeacherId": "PolyTeacher053",
+    "numberOfSessions": 17,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpB-034",
+    "groupLabel": "2LBI-GrpB",
+    "TeacherId": "PolyTeacher029",
+    "numberOfSessions": 13,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpB-035",
+    "groupLabel": "2LBI-GrpB",
+    "TeacherId": "PolyTeacher013",
+    "numberOfSessions": 11,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpC-036",
+    "groupLabel": "2LBI-GrpC",
+    "TeacherId": "PolyTeacher033",
+    "numberOfSessions": 15,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpC-037",
+    "groupLabel": "2LBI-GrpC",
+    "TeacherId": "PolyTeacher026",
+    "numberOfSessions": 15,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpC-038",
+    "groupLabel": "2LBI-GrpC",
+    "TeacherId": "PolyTeacher013",
+    "numberOfSessions": 17,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpC-039",
+    "groupLabel": "2LBI-GrpC",
+    "TeacherId": "PolyTeacher001",
+    "numberOfSessions": 16,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpC-040",
+    "groupLabel": "2LBI-GrpC",
+    "TeacherId": "PolyTeacher024",
+    "numberOfSessions": 15,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpC-041",
+    "groupLabel": "2LBI-GrpC",
+    "TeacherId": "PolyTeacher053",
+    "numberOfSessions": 20,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpC-042",
+    "groupLabel": "2LBI-GrpC",
+    "TeacherId": "PolyTeacher010",
+    "numberOfSessions": 14,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpD-043",
+    "groupLabel": "2LBI-GrpD",
+    "TeacherId": "PolyTeacher031",
+    "numberOfSessions": 20,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpD-044",
+    "groupLabel": "2LBI-GrpD",
+    "TeacherId": "PolyTeacher025",
+    "numberOfSessions": 18,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpD-045",
+    "groupLabel": "2LBI-GrpD",
+    "TeacherId": "PolyTeacher029",
+    "numberOfSessions": 15,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpD-046",
+    "groupLabel": "2LBI-GrpD",
+    "TeacherId": "PolyTeacher004",
+    "numberOfSessions": 12,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpD-047",
+    "groupLabel": "2LBI-GrpD",
+    "TeacherId": "PolyTeacher038",
+    "numberOfSessions": 19,
+    "active": true
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpD-048",
+    "groupLabel": "2LBI-GrpD",
+    "TeacherId": "PolyTeacher014",
+    "numberOfSessions": 18,
+    "active": false
+  },
+  {
+    "groupModuleId": "PolyGM-2LBI-GrpD-049",
+    "groupLabel": "2LBI-GrpD",
+    "TeacherId": "PolyTeacher015",
+    "numberOfSessions": 11,
+    "active": true
+  }
+]

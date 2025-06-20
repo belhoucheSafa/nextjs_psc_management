@@ -1,0 +1,362 @@
+[
+  {
+    "invoiceId": "PolyInvoice001",
+    "label": "Stationery Supplies",
+    "amount": 1200,
+    "date": "05/01/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice002",
+    "label": "Textbooks",
+    "amount": 4500,
+    "date": "12/01/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice003",
+    "label": "Library Subscription",
+    "amount": 3000,
+    "date": "01/02/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice004",
+    "label": "Laboratory Equipment",
+    "amount": 8000,
+    "date": "10/02/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice005",
+    "label": "Field Trip Expenses",
+    "amount": 5000,
+    "date": "03/03/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice006",
+    "label": "Sports Equipment",
+    "amount": 2000,
+    "date": "15/03/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice007",
+    "label": "Guest Speaker Fees",
+    "amount": 1500,
+    "date": "07/04/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice008",
+    "label": "Maintenance Costs",
+    "amount": 6000,
+    "date": "20/04/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice009",
+    "label": "Catering Services",
+    "amount": 3500,
+    "date": "05/05/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice010",
+    "label": "Classroom Renovation",
+    "amount": 10000,
+    "date": "15/05/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice011",
+    "label": "Insurance Premium",
+    "amount": 4000,
+    "date": "01/06/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice012",
+    "label": "Utility Bills",
+    "amount": 2500,
+    "date": "10/06/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice013",
+    "label": "Software Licenses",
+    "amount": 6000,
+    "date": "02/07/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice014",
+    "label": "Transportation Costs",
+    "amount": 4500,
+    "date": "15/07/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice015",
+    "label": "Furniture Purchase",
+    "amount": 8000,
+    "date": "01/08/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice016",
+    "label": "Annual Audit Fees",
+    "amount": 3000,
+    "date": "10/08/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice017",
+    "label": "Internet Services",
+    "amount": 1000,
+    "date": "05/09/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice018",
+    "label": "Training Workshops",
+    "amount": 7000,
+    "date": "20/09/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice019",
+    "label": "Marketing Expenses",
+    "amount": 4000,
+    "date": "03/10/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice020",
+    "label": "Health Services",
+    "amount": 2000,
+    "date": "15/10/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice021",
+    "label": "Cleaning Supplies",
+    "amount": 1800,
+    "date": "02/11/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice022",
+    "label": "Staff Training",
+    "amount": 5300,
+    "date": "12/11/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice023",
+    "label": "Transport Services",
+    "amount": 6700,
+    "date": "20/11/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice024",
+    "label": "Consultancy Fees",
+    "amount": 4500,
+    "date": "01/12/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice025",
+    "label": "Project Materials",
+    "amount": 2400,
+    "date": "10/12/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice026",
+    "label": "Technology Upgrades",
+    "amount": 9800,
+    "date": "20/12/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice027",
+    "label": "Security Services",
+    "amount": 3900,
+    "date": "30/12/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice028",
+    "label": "Postage and Shipping",
+    "amount": 1200,
+    "date": "25/11/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice029",
+    "label": "Promotional Materials",
+    "amount": 2300,
+    "date": "28/01/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice030",
+    "label": "Facility Rentals",
+    "amount": 5200,
+    "date": "22/02/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice031",
+    "label": "Extracurricular Activities",
+    "amount": 3100,
+    "date": "10/03/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice032",
+    "label": "Charity Events",
+    "amount": 4500,
+    "date": "05/04/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice033",
+    "label": "Printing Services",
+    "amount": 1500,
+    "date": "25/05/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice034",
+    "label": "Student Awards",
+    "amount": 1700,
+    "date": "15/06/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice035",
+    "label": "Website Maintenance",
+    "amount": 6000,
+    "date": "22/07/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice036",
+    "label": "Annual Fees",
+    "amount": 4800,
+    "date": "19/08/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice037",
+    "label": "Field Equipment",
+    "amount": 2900,
+    "date": "17/09/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice038",
+    "label": "Event Planning",
+    "amount": 3700,
+    "date": "21/10/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice039",
+    "label": "Insurance Claims",
+    "amount": 8200,
+    "date": "30/11/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice040",
+    "label": "School Maintenance",
+    "amount": 4400,
+    "date": "05/12/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice041",
+    "label": "Health and Safety Equipment",
+    "amount": 5900,
+    "date": "15/01/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice042",
+    "label": "Staff Salaries",
+    "amount": 7800,
+    "date": "25/01/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice043",
+    "label": "Art Supplies",
+    "amount": 2600,
+    "date": "05/02/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice044",
+    "label": "Annual Conference",
+    "amount": 1200,
+    "date": "28/02/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice045",
+    "label": "Scholarship Funds",
+    "amount": 7000,
+    "date": "22/03/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice046",
+    "label": "Communication Equipment",
+    "amount": 3100,
+    "date": "12/04/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice047",
+    "label": "Sponsorships",
+    "amount": 5900,
+    "date": "30/05/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice048",
+    "label": "Insurance Adjustments",
+    "amount": 4800,
+    "date": "25/06/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice049",
+    "label": "Class Events",
+    "amount": 3800,
+    "date": "10/07/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice050",
+    "label": "New Equipment",
+    "amount": 2500,
+    "date": "30/08/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice051",
+    "label": "Promotional Events",
+    "amount": 2100,
+    "date": "18/09/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice052",
+    "label": "Staff Recruitment",
+    "amount": 9000,
+    "date": "07/10/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice053",
+    "label": "Curriculum Development",
+    "amount": 3000,
+    "date": "11/11/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice054",
+    "label": "Counseling Services",
+    "amount": 3400,
+    "date": "12/12/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice055",
+    "label": "Digital Learning Tools",
+    "amount": 7800,
+    "date": "04/01/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice056",
+    "label": "Community Outreach",
+    "amount": 6000,
+    "date": "22/01/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice057",
+    "label": "Special Programs",
+    "amount": 4400,
+    "date": "15/02/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice058",
+    "label": "Tutoring Services",
+    "amount": 5300,
+    "date": "28/03/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice059",
+    "label": "Online Courses",
+    "amount": 2700,
+    "date": "19/04/2024"
+  },
+  {
+    "invoiceId": "PolyInvoice060",
+    "label": "Parent-Teacher Meetings",
+    "amount": 3200,
+    "date": "10/05/2024"
+  }
+]

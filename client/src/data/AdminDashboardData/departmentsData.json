@@ -1,0 +1,52 @@
+[
+    {
+      "DepartmentId": "PolyDep001",
+      "departmentLabel": "Civil Engineering",
+      "numStudents": 350
+    },
+    {
+      "DepartmentId": "PolyDep002",
+      "departmentLabel": "Department Licence",
+      "numStudents": 108
+    },
+    {
+      "DepartmentId": "PolyDep003",
+      "departmentLabel": "Preparatoire",
+      "numStudents": 75
+    },
+    {
+      "DepartmentId": "PolyDep004",
+      "departmentLabel": "Estim-Business",
+      "numStudents": 488
+    },
+    {
+      "DepartmentId": "PolyDep005",
+      "departmentLabel": "Department Ingénierie",
+      "numStudents": 127
+    },
+    {
+      "DepartmentId": "PolyDep006",
+      "departmentLabel": "Department Licence",
+      "numStudents": 172
+    },
+    {
+      "DepartmentId": "PolyDep007",
+      "departmentLabel": "Department Architecture",
+      "numStudents": 122
+    },
+    {
+      "DepartmentId": "PolyDep008",
+      "departmentLabel": "Civil Engineering",
+      "numStudents": 257
+    },
+    {
+      "DepartmentId": "PolyDep009",
+      "departmentLabel": "Department Architecture",
+      "numStudents": 123
+    },
+    {
+      "DepartmentId": "PolyDep010",
+      "departmentLabel": "Department Architecture",
+      "numStudents": 183
+    }
+  ]

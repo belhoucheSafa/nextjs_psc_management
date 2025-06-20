@@ -1,0 +1,67 @@
+.attendance-chart-wrapper {
+  //   border: 1px solid red;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 5px;
+  left: -17px;
+
+
+  .apexcharts-xaxis{
+    display: none !important;
+  }
+}
+
+
+.switch-students-teachers {
+  // border: 1px solid blue;
+  position: absolute;
+  top: -25px;
+  right: 0px;
+}
+
+.legend-wrapper {
+  height: fit-content;
+  width: fit-content;
+  //   border: 1px solid red;
+  position: absolute;
+  left: 27px;
+  top: 9px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  .legend-item {
+    height: fit-content;
+    width: fit-content;
+    // border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+
+    .icon {
+      height: 10px;
+      width: 10px;
+      border-radius: 2px;
+    }
+    .icon.low {
+      background: #ffd949;
+    }
+    .icon.medium {
+      background: #04c3fb;
+    }
+    .icon.high {
+      background: #73d674;
+    }
+    .icon.extreme {
+      background: #e82646;
+    }
+    .text {
+      height: fit-content;
+      width: fit-content;
+      font-size: 12px;
+      color: #333;
+      font-weight: 700;
+    }
+  }
+}
