@@ -16,9 +16,9 @@ const storage = multer.diskStorage({
     cb(null, uploadPath);
   },
   filename: (req, file, cb) => {
-    const ext = path.extname(file.originalname).toLowerCase(); // .pdf, .mp4, etc.
-    const teamName = req.body.teamName || 'unknown_team'; // Fallback if missing
-    const filename = `${req.body.type}_${teamName}${ext}`; // Format: poster_team01.pdf
+    const ext = path.extname(file.originalname).toLowerCase();
+    const teamName = req.body.teamName || 'unknown_team';
+    const filename = `${req.body.type}_${teamName}${ext}`;
     cb(null, filename);
   }
 });

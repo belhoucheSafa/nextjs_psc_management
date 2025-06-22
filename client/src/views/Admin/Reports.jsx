@@ -62,22 +62,6 @@ const Reports = () => {
   const rejected = allReports.filter((r) => r.status === "rejected").length;
   const pending = allReports.filter((r) => r.status === "pending").length;
 
-  // Approve/Reject handlers
-  // const updateReportStatus = (teamId, type, newStatus) => {
-  //   setTeams((prev) =>
-  //     prev.map((team) =>
-  //       team.id === teamId
-  //         ? {
-  //             ...team,
-  //             reports: team.reports.map((r) =>
-  //               r.type === type ? { ...r, status: newStatus } : r
-  //             ),
-  //           }
-  //         : team
-  //     )
-  //   );
-  //   message.success(`Report ${newStatus}`);
-  // };
 
   // By Type View
   const renderByType = () => (
@@ -151,13 +135,13 @@ const Reports = () => {
     </div>
   );
 
-  const handleDownload = (fileUrl, fileName) => {
+  const handleDownload = (fileUrl, fileName, type) => {
     const fullUrl = fileUrl.startsWith("http")
       ? fileUrl
-      : `${BASE_URL}${fileUrl}`;
+      : `${BASE_URL}${fileUrl}`; 
+
     window.open(fullUrl, "_blank");
   };
- 
 
   // By Team View
   const renderByTeam = () => (
@@ -227,7 +211,7 @@ const Reports = () => {
                           size="small"
                           type="primary"
                           onClick={async () => {
-                            await updateReportStatus(r.id , "approved");
+                            await updateReportStatus(r.id, "approved");
                             fetchAllReports();
                           }}
                         >
@@ -251,7 +235,9 @@ const Reports = () => {
                     <Button
                       size="small"
                       icon={<DownloadOutlined />}
-                      onClick={() => handleDownload(r.fileUrl, r.fileName)}
+                      onClick={() =>
+                        handleDownload(r.fileUrl, r.fileName, r.type)
+                      }
                     >
                       Download
                     </Button>
@@ -265,7 +251,7 @@ const Reports = () => {
   );
 
   const updateReportStatus = async (reportId, newStatus) => {
-    console.log("APPROVING : ",reportId, newStatus);
+    console.log("APPROVING : ", reportId, newStatus);
     try {
       const res = await axios.patch(`/reports/${reportId}`, {
         adminStatus: newStatus,
@@ -290,9 +276,7 @@ const Reports = () => {
 
       setTeams(data); // keep raw teams too
 
-      console.log("DATA" , data)
-
-    
+      console.log("DATA", data);
     } catch (err) {
       console.error("❌ Error fetching admin reports:", err);
     }

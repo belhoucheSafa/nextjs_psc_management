@@ -1,45 +1,3 @@
-// // controllers/reportController.js
-// const Report = require('../models/reportModel');
-
-// exports.uploadReport = async (req, res) => {
-//   try {
-//     if (!req.file) {
-//       return res
-//         .status(400)
-//         .json({ status: 'fail', message: 'No file uploaded' });
-//     }
-
-//     const { type, teamId, teamName } = req.body; // Ensure teamName is received
-
-//     if (!teamName) {
-//       return res
-//         .status(400)
-//         .json({ status: 'fail', message: 'Team name is required' });
-//     }
-
-//     const newReport = await Report.create({
-//       team: teamId,
-//       type,
-//       fileUrl: `/uploads/deliverables/${
-//         req.file.path.split('uploads/deliverables/')[1]
-//       }`,
-//       fileName: req.file.originalname,
-//       fileSize: req.file.size,
-//       fileType: req.file.mimetype,
-//       teamStatus: 'submitted',
-//       tutorStatus: 'pending',
-//       adminStatus: 'pending'
-//     });
-
-//     res.status(201).json({
-//       status: 'success',
-//       data: { report: newReport }
-//     });
-//   } catch (err) {
-//     console.error(err);
-//     res.status(500).json({ status: 'error', message: err.message });
-//   }
-// };
 const mongoose = require('mongoose');
 const Report = require('../models/reportModel');
 const Team = require('../models/teamModel');
@@ -79,7 +37,6 @@ exports.uploadReport = async (req, res) => {
   }
 };
 
-// 2. Get All Reports
 exports.getAllReports = async (req, res) => {
   try {
     const reports = await Report.find().sort({ createdAt: -1 }); // Newest first
