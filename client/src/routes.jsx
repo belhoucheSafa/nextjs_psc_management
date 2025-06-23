@@ -112,12 +112,27 @@ const routes = [
     protected: true,
   },
   {
+    path: "/admin/reservations",
+    component: lazy(() => import("./views/Admin/News.jsx")),
+    layout: "roleBased",
+    roles: ["admin" , "student" , "tutor"],
+    protected:false,
+  },
+  {
+    path: "/admin/reclamations",
+    component: lazy(() => import("./views/Admin/News.jsx")),
+    layout: "roleBased",
+    roles: ["admin" , "student" , "tutor"],
+    protected:false,
+  },
+  {
     path: "/admin/news",
     component: lazy(() => import("./views/Admin/News.jsx")),
     layout: "roleBased",
     roles: ["admin" , "student" , "tutor"],
     protected:false,
   },
+
   {
     path: "/admin/reports",
     component: lazy(() => import("./views/Admin/Reports.jsx")),

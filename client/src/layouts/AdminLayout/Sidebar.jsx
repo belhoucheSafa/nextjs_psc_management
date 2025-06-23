@@ -52,8 +52,8 @@ const Sidebar = () => {
     { label: "Tutors", icon: <FaChalkboardTeacher />, path: "/admin/tutors" },
     { label: "Teams", icon: <HiUserGroup />, path: "/admin/teams" },
     { label: "Reports", icon: <LuSwatchBook />, path: "/admin/reports" },
-    { label: "Reservations", icon: <RiMapPinTimeLine />, path: "/admin/news" },
-    { label: "Reclamations", icon: <AiOutlineAlert />, path: "/admin/news" },
+    { label: "Reservations", icon: <RiMapPinTimeLine />, path: "/admin/reservations" },
+    { label: "Reclamations", icon: <AiOutlineAlert />, path: "/admin/reclamations" },
   ];
 
   const handleLogout = () => {

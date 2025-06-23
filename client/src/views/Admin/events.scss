@@ -1002,6 +1002,16 @@
       gap: 25px;
     }
   }
+
+  .no-events-message {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #8080806b;
+    font-size: 13px;
+  }
 }
 
 .ant-modal-content {
@@ -1267,8 +1277,8 @@
     justify-content: space-between;
     padding-right: 2px;
 
-   
-    .save-btn , .delete-btn {
+    .save-btn,
+    .delete-btn {
       height: fit-content;
       width: fit-content;
       padding: 2px 5px;
@@ -1287,7 +1297,7 @@
         color: #f2a752;
       }
     }
-    .delete-btn{
+    .delete-btn {
       background-color: #ea8391;
       &:hover {
         background-color: #ea8391;
@@ -1343,6 +1353,6 @@
   min-height: 22px;
   font-weight: 800 !important;
 }
-.upload-hint{
+.upload-hint {
   font-size: 10px !important;
 }

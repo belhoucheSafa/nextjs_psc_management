@@ -62,6 +62,11 @@ const Reports = ({ tutor, authToken }) => {
   const rejected = allReports.filter((r) => r.status === "rejected").length;
   const pending = allReports.filter((r) => r.status === "pending").length;
 
+  const expectedReports = (tutor?.assignedTeams?.length || 0) * 3;
+  const submittedReports = allReports.filter(
+    (r) => r.status === "approved" || r.status === "pending"
+  ).length;
+
   // By Type View
   const renderByType = () => (
     <div className="reports-by-type">
@@ -291,8 +296,9 @@ const Reports = ({ tutor, authToken }) => {
       <div className="analytics-row">
         <div className="analytics-card">
           <div className="left-side">
-            <div className="title">TOTAL REPORTS</div>
-            <div className="stat total">{total}</div>
+            <div className="stat total">
+              {submittedReports} / {expectedReports}
+            </div>
           </div>
           <div className="right-side">
             <img src={REPORTS} alt="" className="total-report-img" />

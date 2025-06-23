@@ -76,7 +76,7 @@ const LoginPage = () => {
   // UI States
   const [isSwapped, setIsSwapped] = useState(false);
   const [createTeam, setCreateTeam] = useState(false);
-  const [selectedRole, setSelectedRole] = useState("");
+  const [selectedRole, setSelectedRole] = useState("admin");
   const [loading, setLoading] = useState(false);
   // Team Creation States
   const [teamCreationState, setTeamCreationState] = useState({
@@ -99,6 +99,7 @@ const LoginPage = () => {
 
   useEffect(() => {
     setLoading(true);
+    setSelectedRole("admin");
     setSelectedRole("admin");
 
     axios
@@ -300,7 +301,6 @@ const LoginPage = () => {
   const slides = [
     { src: LoginImage, alt: "Image 1 for carousel" },
     { src: LoginImg2, alt: "Image 2 for carousel" },
-    // { src: LoginImg3, alt: "Image 3 for carousel" },
     { src: LoginImg1, alt: "Image 4 for carousel" },
   ];
 
@@ -315,98 +315,6 @@ const LoginPage = () => {
     password: "",
   });
 
-  // const handleLogin = async () => {
-  //   setLoading(true);
-
-  //   try {
-  //     let endpoint = "";
-  //     let response;
-
-  //     // Determine which endpoint to use based on selected role
-  //     switch (selectedRole) {
-  //       case "admin":
-  //         endpoint = "/auth/admin-login";
-  //         break;
-  //       case "tutor":
-  //         endpoint = "/auth/tutor-login";
-  //         break;
-  //       case "student":
-  //         endpoint = "/auth/student-login";
-  //         break;
-  //       default:
-  //         throw new Error("No role selected");
-  //     }
-
-  //     // Make the API call
-  //     response = await axios.post(endpoint, {
-  //       email: loginCredentials.email,
-  //       password: loginCredentials.password,
-  //     });
-
-  //     if (response.data.status === "success") {
-  //       console.log("🔥 LOOGED", response.data.data);
-  //       // Store user data and token (you might use context, Redux, or localStorage)
-  //       const { token, user } = response.data.data;
-
-  //       // Example of storing in localStorage
-  //       localStorage.setItem("authToken", token);
-  //       localStorage.setItem("userData", JSON.stringify(user));
-
-  //       // Redirect based on role
-  //       const redirectPath = {
-  //         admin: "/admin/dashboard",
-  //         tutor: "/tutor/dashboard",
-  //         student: "/student/dashboard",
-  //       }[user.role];
-
-  //       navigate(redirectPath);
-  //       message.success("Login successful!");
-
-  //       message.success("Login successful!");
-  //     } else {
-  //       message.error(response.data.message || "Login failed");
-  //     }
-  //   } catch (error) {
-  //     console.error("Login error:", error);
-  //     message.error(
-  //       error.response?.data?.message || "Login failed. Please try again."
-  //     );
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // };
-
-  // const handleStudentLogin = async () => {
-  //   setLoading(true);
-
-  //   try {
-  //     const response = await axios.post("/auth/student-login", {
-  //       code: authCode, // The 7-digit code from the OTP input
-  //     });
-
-  //     if (response.data.status === "success") {
-  //       console.log("🔥 LOOGED", response.data.data);
-  //       const { token, user } = response.data.data;
-
-  //       // Store auth data
-  //       localStorage.setItem("authToken", token);
-  //       localStorage.setItem("userData", JSON.stringify(user));
-
-  //       // Redirect to student dashboard
-  //       navigate("/student/dashboard");
-  //       message.success("Login successful!");
-  //     } else {
-  //       message.error(response.data.message || "Invalid auth code");
-  //     }
-  //   } catch (error) {
-  //     console.error("Student login error:", error);
-  //     message.error(
-  //       error.response?.data?.message || "Login failed. Please try again."
-  //     );
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // };
 
   const handleLogin = async () => {
     setLoading(true);
@@ -875,8 +783,8 @@ const LoginPage = () => {
                                   <input
                                     type="radio"
                                     className="input-radio"
-                                    checked={formData.selectedTheme === "Santé"}
-                                    onChange={() => handleThemeChange("Santé")}
+                                    checked={formData.selectedTheme === "Health"}
+                                    onChange={() => handleThemeChange("Health")}
                                   />
                                 </div>
                               </div>
@@ -888,16 +796,16 @@ const LoginPage = () => {
                                   alt=""
                                   className="theme-img env"
                                 />
-                                <div className="theme-title">Environement</div>
+                                <div className="theme-title">Environment</div>
                                 <div className="theme-radio">
                                   <input
                                     type="radio"
                                     className="input-radio"
                                     checked={
-                                      formData.selectedTheme === "Environnement"
+                                      formData.selectedTheme === "Environment"
                                     }
                                     onChange={() =>
-                                      handleThemeChange("Environnement")
+                                      handleThemeChange("Environment")
                                     }
                                   />
                                 </div>
@@ -917,10 +825,10 @@ const LoginPage = () => {
                                     className="input-radio"
                                     checked={
                                       formData.selectedTheme ===
-                                      "Culture et Sport"
+                                      "Culture and Sports"
                                     }
                                     onChange={() =>
-                                      handleThemeChange("Culture et Sport")
+                                      handleThemeChange("Culture and Sports")
                                     }
                                   />
                                 </div>
@@ -1008,7 +916,7 @@ const LoginPage = () => {
               <source src={CreatingTeamSpaceLoader} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-          </div>
+          </div> 
 
           <div className="creating-space-text-wrapper">
             <div className="text-creating-team-space">

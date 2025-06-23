@@ -51,12 +51,12 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 // Limit requests from same API
-const limiter = rateLimit({
-  max: 100,
-  windowMs: 60 * 60 * 1000,
-  message: 'Too many requests from this IP, please try again in an hour!'
-});
-app.use('/api', limiter);
+// const limiter = rateLimit({
+//   max: 100,
+//   windowMs: 60 * 60 * 1000,
+//   message: 'Too many requests from this IP, please try again in an hour!'
+// });
+// app.use('/api', limiter);
 
 // Body parser, reading data from body into req.body
 app.use(express.json({ limit: '10kb' }));
@@ -86,22 +86,6 @@ app.use('/api/v1/teams', teamRoutes);
 app.use('/api/v1/reports', reportRoutes);
 app.use('/api/v1/events', eventRoutes);
 
-// app.use('/api/v1/users', userRouter);
-// app.use('/api/v1/teams', teamRouter);
-// app.use('/api/v1/students', studentRouter);
-// HANDLING UNHANDLED ROUTES
-// app.get('/testemail', async (req, res) => {
-//   try {
-//     await sendEmail({
-//       email: 'belhouchesafa@gmail.com', // replace with your real email for testing
-//       subject: 'Test email from API route',
-//       message: 'This is a test email sent from API route'
-//     });
-//     res.send('Email sent successfully!');
-//   } catch (err) {
-//     res.status(500).send(err.message);
-//   }
-// });
 app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
 });

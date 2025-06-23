@@ -196,7 +196,7 @@ const StudentDashboard = () => {
       color: "#89c9ff",
       icon: EdIcon,
     },
-    Environment: {
+    Environment: { 
       color: "#afe5a6",
       icon: EnvIcon,
     },

@@ -75,7 +75,6 @@ const Events = () => {
     cover: null,
   });
 
-
   const handleEventViewChangeList = () => setEventViewList(true);
   const handleEventViewChangeCards = () => setEventViewList(false);
 
@@ -107,14 +106,12 @@ const Events = () => {
             </div>
             <div className="title">PSC EVENTS</div>
           </div>
-
-        
         </div>
 
         <div className="events-view-bottom">
-        
-            <div className="events-right events-right-cards-view">
-              {events.map((event) => (
+          <div className="events-right events-right-cards-view">
+            {events.length > 0 ? (
+              events.map((event) => (
                 <div className="event-card-wrapper" key={event._id}>
                   <div className="starred-event-wrapper">
                     <PiShootingStarFill className="icon" />
@@ -197,7 +194,7 @@ const Events = () => {
                             backgroundColor: "#fde3cf",
                           }}
                         >
-                          {/* Map through actual participants here */}
+                          {/* Replace with real participants */}
                           <Avatar style={{ backgroundColor: "#f56a00" }}>
                             K
                           </Avatar>
@@ -214,9 +211,13 @@ const Events = () => {
                     </div>
                   </div>
                 </div>
-              ))}
-            </div>
-       
+              ))
+            ) : (
+              <div className="no-events-message">
+                <p>No events yet !</p>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </>

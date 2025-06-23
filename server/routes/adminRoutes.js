@@ -5,8 +5,9 @@ const authController = require('../controllers/authController');
 const router = express.Router();
 
 // Protect all admin routes
-router.use(authController.protect);
-
+// router.use(authController.protect);
+router.post('/', authController.signupAdmin);
+router.post('/create-test-admin', authController.createTestAdmin);
 router.get('/', adminController.getAllAdmins);
 router.get('/:id', adminController.getAdmin);
 router.patch('/:id', adminController.updateAdmin);

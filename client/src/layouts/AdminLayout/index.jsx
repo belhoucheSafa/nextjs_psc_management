@@ -25,14 +25,9 @@ const MainLayout = ({ children }) => {
               href="https://drive.google.com"
               target="_blank"
               rel="noopener noreferrer"
+              className="space-item"
             >
-              <div className="space-item">
-                <img
-                  src={DRIVEICON}
-                  alt="Google Drive"
-                  className="drive-icon"
-                />
-              </div>
+              <img src={DRIVEICON} alt="Google Drive" className="drive-icon" />
             </a>
           </div>
 
@@ -41,14 +36,13 @@ const MainLayout = ({ children }) => {
               href="https://www.polytecsousse.tn/psc-2/"
               target="_blank"
               rel="noopener noreferrer"
+              className="space-item"
             >
-              <div className="space-item">
-                <img
-                  src={WEBSITEICON}
-                  alt="Polytechnique Website"
-                  className="polyWebsite-icon"
-                />
-              </div>
+              <img
+                src={WEBSITEICON}
+                alt="Polytechnique Website"
+                className="polyWebsite-icon"
+              />
             </a>
           </div>
         </div>

@@ -120,7 +120,7 @@
   flex-direction: row;
   align-items: center;
   // justify-content: space-between;
-  gap: 30px;
+  gap: 15px;
   height: 27px;
   .report-type {
     // border: 1px solid red;
@@ -234,4 +234,12 @@
 .ant-btn-variant-solid {
   background: #66abff !important;
   box-shadow: none !important ;
+}
+
+.generate-posters-catalogue-btn {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 9px;
+  width: fit-content;
+  height: 30px;
 }

@@ -1,6 +1,8 @@
+// utils/multer.js
+
 const multer = require('multer');
-const fs = require('fs');
 const path = require('path');
+const fs = require('fs');
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
@@ -12,7 +14,7 @@ const storage = multer.diskStorage({
     const folder = typeMap[req.body.type] || 'Others';
     const uploadPath = path.join('public', 'uploads', 'deliverables', folder);
 
-    fs.mkdirSync(uploadPath, { recursive: true }); // Create folder if missing
+    fs.mkdirSync(uploadPath, { recursive: true }); // Create folder if it doesn't exist
     cb(null, uploadPath);
   },
   filename: (req, file, cb) => {
@@ -23,4 +25,5 @@ const storage = multer.diskStorage({
   }
 });
 
+// ✅ Export JUST the multer instance — not an object
 module.exports = multer({ storage });

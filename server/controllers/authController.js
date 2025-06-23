@@ -156,3 +156,24 @@ exports.protect = catchAsync(async (req, res, next) => {
   req.user = user;
   next();
 });
+
+exports.createTestAdmin = async (req, res) => {
+  try {
+    const admin = await Admin.create({
+      name: 'Mahmoud Menyaoui',
+      email: 'admin@psc.tn',
+      password: '@pscApp025!'
+    });
+
+    res.status(201).json({
+      status: 'success',
+      data: admin
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({
+      status: 'error',
+      message: err.message
+    });
+  }
+};

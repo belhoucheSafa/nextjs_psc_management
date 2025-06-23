@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./teams.scss";
 
+import * as XLSX from "xlsx";
+
 import { Progress } from "antd";
 import { AntDesignOutlined, UserOutlined } from "@ant-design/icons";
 import {
@@ -70,6 +72,29 @@ const Teams = () => {
     selectedTheme: null,
     selectedTutor: null,
   });
+  const [teamReports, setTeamReports] = useState({});
+  useEffect(() => {
+    if (teamsData.length > 0) {
+      teamsData.forEach((team) => {
+        fetchReportsByTeam(team._id);
+      });
+    }
+  }, [teamsData]);
+
+  console.log("TAEMQ : ", teamsData);
+  const fetchReportsByTeam = async (teamId) => {
+    try {
+      const res = await axios.get(`/reports/team/${teamId}`);
+      const reports = res.data.data.reports;
+
+      setTeamReports((prev) => ({
+        ...prev,
+        [teamId]: reports,
+      }));
+    } catch (error) {
+      console.error(`Failed to fetch reports for team ${teamId}`, error);
+    }
+  };
 
   const showDrawer = () => {
     setOpen(true);
@@ -87,7 +112,7 @@ const Teams = () => {
   // Theme colors mapping
   const themeColors = {
     Education: "#afe5a6",
-    Environnement: "#89c9ff",
+    Environment: "#89c9ff",
     Health: "#f4a850",
     "Culture & Sport": "#b990f5",
   };
@@ -170,7 +195,7 @@ const Teams = () => {
     }
   };
 
-  console.log("STUDENTS", students);
+  // console.log("STUDENTS", students);
 
   const fetchTutors = () => {
     axios
@@ -220,7 +245,6 @@ const Teams = () => {
     const selected = tutors.find((t) => t._id === tutorId);
     setFormData((prev) => ({ ...prev, selectedTutor: selected }));
   };
-
 
   const handleSaveTeam = async () => {
     console.log("SAVING TEAM :");
@@ -323,8 +347,8 @@ const Teams = () => {
 
         if (eligible.length === 0) {
           const warningMsg = `⚠️ No eligible tutor found for theme: ${team.theme}`;
-          console.warn(warningMsg);
-          toast.warning(warningMsg);
+          // console.warn(warningMsg);
+          // toast.warning(warningMsg);
           continue;
         }
 
@@ -352,6 +376,155 @@ const Teams = () => {
     } finally {
       setAssigningTutors(false);
     }
+  };
+
+  const exportTeams = () => {
+    // Theme colors mapping
+    const themeColors = {
+      Education: "#afe5a6",
+      Environment: "#89c9ff",
+      Health: "#f4a850",
+      "Culture & Sport": "#b990f5",
+    };
+
+    // Create a printable HTML content
+    const htmlContent = `
+      <html>
+        <head>
+          <title>Liste des Équipes</title>
+          <style>
+            body { font-family: "Nunito"; margin: 20px; }
+            h1 { color: #2980b9; text-align: center; }
+            .team-section { 
+              margin-bottom: 30px; 
+              page-break-inside: avoid;
+              border: 1px solid #ddd;
+              padding: 15px;
+              border-radius: 5px;
+            }
+            .team-header { 
+              font-weight: bold; 
+              margin-bottom: 10px;
+              font-size: 14px;
+              padding-bottom: 8px;
+              border-bottom: 1px solid #f3f3f3;
+
+            }
+            .members-table {
+              width: 100%;
+              border-collapse: collapse;
+              margin-top: 10px;
+              font-size:14px;
+            }
+            .members-table th {
+              color: white;
+              padding: 8px;
+              text-align: left;
+            }
+            .members-table td {
+              padding: 8px;
+              border-bottom: 1px solid #ddd;
+            }
+            .team-repartition{
+            height:50px;
+  
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-radius:5px;
+            background-color:#f5f5f5;
+            margin-bottom:30px;
+            font-weight:700;
+            color:#333333
+            }
+            .member-header{
+            border-radius:5px
+            }
+            @media print {
+              body { padding: 0; }
+              .team-section { border: none; }
+            }
+          </style>
+        </head>
+        <body>
+          <div class = "team-repartition" >Teams Repartition - PSC 2K25</div>
+          ${teamsData
+            .map(
+              (team) => `
+            <div class="team-section">
+              <div class="team-header">
+                <span style="font-size: 14px;">Team : ${team.name}</span><br>
+                Theme : ${team.theme}<br>
+                Mentor : ${
+                  team.tutor
+                    ? `${team.tutor.firstName} ${team.tutor.lastName}`
+                    : "Not Assigned"
+                }
+              </div>
+              <table class="members-table">
+                <thead class="member-header">
+                  <tr>
+                    <th style="background-color: ${
+                      themeColors[team.theme] || "#2980b9"
+                    }">#</th>
+                    <th style="background-color: ${
+                      themeColors[team.theme] || "#2980b9"
+                    }">Student Name</th>
+                    <th style="background-color: ${
+                      themeColors[team.theme] || "#2980b9"
+                    }">Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${team.members
+                    .map(
+                      (member, index) => `
+                    <tr>
+                      <td>${index + 1}</td>
+                      <td>${member.firstName} ${member.lastName}</td>
+                      <td>${
+                        member.id ||
+                        member.email ||
+                        (member._id ? member._id.slice(-6) : "N/A")
+                      }</td>
+                    </tr>
+                  `
+                    )
+                    .join("")}
+                </tbody>
+              </table>
+            </div>
+          `
+            )
+            .join("")}
+        </body>
+      </html>
+    `;
+
+    // Open a new window with the content
+    const printWindow = window.open("", "_blank");
+    printWindow.document.write(htmlContent);
+    printWindow.document.close();
+
+    // Add print button to the new window
+    printWindow.onload = function () {
+      const printBtn = printWindow.document.createElement("button");
+      printBtn.textContent = "Print / Save PDF";
+      printBtn.style.cssText = `
+        position: fixed;
+        top: 27px;
+        right: 27px;
+        padding: 10px 10px;
+        background: rgb(161 124 247 / 74%);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 1000;
+      `;
+      printBtn.onclick = () => printWindow.print();
+      printWindow.document.body.appendChild(printBtn);
+    };
   };
 
   return (
@@ -424,7 +597,11 @@ const Teams = () => {
           <div className="teams-section-bottom-nav">
             <div className="teams-section-bottom-nav-top">
               <div className="teams-management-title">MANAGE TEAMS</div>
-              <div className="number-of-teams-created">
+              {/* <div className="number-of-teams-created">
+                <TbFileExport className="add-team-icon" />
+                Export Data
+              </div> */}
+              <div className="number-of-teams-created" onClick={exportTeams}>
                 <TbFileExport className="add-team-icon" />
                 Export Data
               </div>
@@ -454,9 +631,9 @@ const Teams = () => {
 
                 <div
                   className={`widget-wrapper env${
-                    selectedFilter === "Environnement" ? " active" : ""
+                    selectedFilter === "Environment" ? " active" : ""
                   }`}
-                  onClick={() => setSelectedFilter("Environnement")}
+                  onClick={() => setSelectedFilter("Environment")}
                 >
                   <RiRecycleLine className="widget-wrapper-icon" />
                   Environment
@@ -666,12 +843,8 @@ const Teams = () => {
                             <input
                               type="radio"
                               className="input-radio"
-                              checked={
-                                formData.selectedTheme === "Environnement"
-                              }
-                              onChange={() =>
-                                handleThemeChange("Environnement")
-                              }
+                              checked={formData.selectedTheme === "Environment"}
+                              onChange={() => handleThemeChange("Environment")}
                             />
                           </div>
                         </div>
@@ -825,14 +998,32 @@ const Teams = () => {
                 : "Not Assigned";
 
               const members = team.members || [];
-              const submittedDeliverables =
-                team.deliverables?.filter((d) => d.status === "submitted")
-                  .length || 0;
-              const totalDeliverables = team.deliverables?.length || 0;
+              const teamReportsData = teamReports[team._id] || [];
+
+              const totalDeliverables = 3; // or dynamically detect all needed report types
+              const submittedDeliverables = teamReportsData.length;
+
+              // Map each report type to its status
+              const reportTypeStatusMap = {};
+              teamReportsData.forEach((report) => {
+                reportTypeStatusMap[report.type] = report.teamStatus;
+              });
+
+              console.log("reports : ", teamReportsData);
+              // Define the list of expected report types (adjust if needed)
+              const expectedTypes = ["poster", "rapport", "video"];
+
+              // Generate stroke colors per type
+              const strokeColors = expectedTypes.map((type) => {
+                const status = reportTypeStatusMap[type];
+
+                if (status === "submitted") return "#9bdb8c";
+                return "#f0f0f0";
+              });
 
               const themeClassMap = {
                 Education: "ed",
-                Environnement: "env",
+                Environment: "env",
                 Health: "health",
                 "Culture & Sport": "other",
               };
@@ -954,18 +1145,11 @@ const Teams = () => {
 
                       <div className="progresses-wrapper">
                         <Progress
-                          steps={totalDeliverables || 3}
+                          steps={totalDeliverables}
                           percent={
-                            totalDeliverables > 0
-                              ? (submittedDeliverables / totalDeliverables) *
-                                100
-                              : 0
+                            (submittedDeliverables / totalDeliverables) * 100
                           }
-                          strokeColor={
-                            team.deliverables?.map((d) =>
-                              d.status === "submitted" ? "#9cdb89" : "#f0f0f0"
-                            ) || ["#f0f0f0", "#f0f0f0", "#f0f0f0"]
-                          }
+                          strokeColor={strokeColors}
                           format={() => ""}
                           className="custom-progress"
                           strokeWidth={5}

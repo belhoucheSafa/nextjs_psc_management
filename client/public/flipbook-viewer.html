@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flipbook Viewer</title>
+  <link rel="stylesheet" href="https://unpkg.com/3d-flipbook/dist/3d-flipbook.min.css" />
+  <style>
+    html, body {
+      margin: 0; height: 100%; overflow: hidden;
+    }
+    #flipbook {
+      width: 100vw; height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="flipbook"></div>
+
+  <script id="flipbook-script" src="https://unpkg.com/3d-flipbook/dist/3d-flipbook.min.js"></script>
+  <script>
+    document.getElementById('flipbook-script').addEventListener('load', () => {
+      const params = new URLSearchParams(window.location.search);
+      const pdfUrl = params.get('pdf');
+
+      if (!pdfUrl) {
+        document.body.innerHTML = '<h2>No PDF file specified.</h2>';
+        return;
+      }
+
+      new FlipBook({
+        container: "#flipbook",
+        pdf: pdfUrl,
+        width: window.innerWidth,
+        height: window.innerHeight,
+        controlsProps: {
+          showDownloadControl: false,
+          showShareControl: false
+        }
+      });
+    });
+  </script>
+</body>
+</html>

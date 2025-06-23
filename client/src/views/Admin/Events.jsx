@@ -136,7 +136,10 @@ const Events = () => {
           formData.append("cover", file);
           console.log("✅ File appended:", file);
         } else {
-          console.warn("⚠️ File exists but couldn't get file object", fileList[0]);
+          console.warn(
+            "⚠️ File exists but couldn't get file object",
+            fileList[0]
+          );
         }
       }
       console.log("📛 FormData contents:");
@@ -268,16 +271,20 @@ const Events = () => {
 
   const calculateStats = () => {
     const now = new Date();
-    
+
     return {
-      finished: events.filter(event => new Date(event.date) < now).length,
-      upcoming: events.filter(event => new Date(event.date) >= now).length,
+      finished: events.filter((event) => new Date(event.date) < now).length,
+      upcoming: events.filter((event) => new Date(event.date) >= now).length,
       // Assuming you have an 'interested' field in your event data
-      interested: events.reduce((sum, event) => sum + (event.interested || 0), 0),
-      published: events.filter(event => event.published).length,
-      unpublished: events.filter(event => !event.published).length,
-      public: events.filter(event => event.type === 'public').length,
-      private: events.filter(event => event.type === 'private').length,
+      interested: events.reduce(
+        (sum, event) => sum + (event.interested || 0),
+        0
+      ),
+      published: events.filter((event) => event.published).length,
+      unpublished: events.filter((event) => !event.published).length,
+      public: events.filter((event) => event.type === "public").length,
+      private: events.filter((event) => event.type === "private").length,
+      mandatory: events.filter((event) => event.type === "isMandatory").length,
     };
   };
 
@@ -314,7 +321,11 @@ const Events = () => {
         </div>
 
         <div className="events-view-bottom">
-          {eventViewList ? (
+          {events.length === 0 ? (
+            <div className="no-events-message">
+              NO EVENTS YET !
+            </div>
+          ) : eventViewList ? (
             <div className="events-right events-right-list-view">
               {events.map((event) => (
                 <div className="event-list-item-wrapper" key={event._id}>
@@ -794,9 +805,9 @@ const Events = () => {
 
               <div className="event-stat-card-wrapper">
                 <div className="event-card-layer-2 interested">
-                  <div className="label">Interested</div>
+                  <div className="label">Mandatory</div>
                   <div className="number">
-                    <span>+</span>20
+                    <span>{stats.mandatory}</span>
                   </div>
                   <div className="icon-wrapper">
                     <div className="icon-layer-2 interested">

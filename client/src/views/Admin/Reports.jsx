@@ -20,7 +20,7 @@ import PENDINGREPORT from "../../assets/icons/exlamationIcon.png";
 import toast from "react-hot-toast";
 const themes = [
   { name: "Education", key: "ed", color: "#89c9ff" },
-  { name: "Environnement", key: "env", color: "#9cdb89" },
+  { name: "Environment", key: "env", color: "#9cdb89" },
   { name: "Health", key: "health", color: "#f4a850" },
   { name: "Culture & Sport", key: "other", color: "#b990f5" },
 ];
@@ -58,10 +58,14 @@ const Reports = () => {
   );
 
   const total = allReports.length;
+  const numberOfTeams = teams.length;
+  const expectedReports = numberOfTeams * 3;
+  const submittedReports = allReports.filter(
+    (r) => r.status === "approved" || r.status === "pending"
+  ).length;
   const approved = allReports.filter((r) => r.status === "approved").length;
   const rejected = allReports.filter((r) => r.status === "rejected").length;
   const pending = allReports.filter((r) => r.status === "pending").length;
-
 
   // By Type View
   const renderByType = () => (
@@ -127,6 +131,15 @@ const Reports = () => {
                       </Button>
                     </>
                   )}
+                  <Button
+                    size="small"
+                    icon={<DownloadOutlined />}
+                    onClick={() =>
+                      handleDownload(r.fileUrl, r.fileName, r.type)
+                    }
+                  >
+                    Download
+                  </Button>
                 </div>
               ))
           )}
@@ -138,7 +151,7 @@ const Reports = () => {
   const handleDownload = (fileUrl, fileName, type) => {
     const fullUrl = fileUrl.startsWith("http")
       ? fileUrl
-      : `${BASE_URL}${fileUrl}`; 
+      : `${BASE_URL}${fileUrl}`;
 
     window.open(fullUrl, "_blank");
   };
@@ -285,14 +298,46 @@ const Reports = () => {
     fetchAllReports();
   }, []);
 
-  console.log("TEAMS : ", teams);
+  const generateCatalogue = async () => {
+    try {
+      toast.loading("Generating Combined Catalogue...");
+      const response = await axios.get("/reports/generate-catalogue", {
+        responseType: "blob",
+      });
+
+      if (response.data.size === 0) {
+        toast.error("No content found to generate catalogue");
+      } else {
+        const url = window.URL.createObjectURL(new Blob([response.data]));
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", "Combined_Teams_Catalogue.pdf");
+        document.body.appendChild(link);
+        link.click();
+
+        setTimeout(() => {
+          window.URL.revokeObjectURL(url);
+          document.body.removeChild(link);
+          toast.success("Combined catalogue downloaded!");
+        }, 100);
+      }
+    } catch (err) {
+      toast.error(
+        err.response?.data?.message || "Failed to generate combined catalogue."
+      );
+      console.error(err);
+    }
+  };
+
   return (
     <div className="reports-dashboard-wrapper">
       <div className="analytics-row">
         <div className="analytics-card">
           <div className="left-side">
             <div className="title">TOTAL REPORTS</div>
-            <div className="stat total">{total}</div>
+            <div className="stat total">
+              {submittedReports} / {expectedReports}
+            </div>
           </div>
           <div className="right-side">
             <img src={REPORTS} alt="" className="total-report-img" />
@@ -332,15 +377,27 @@ const Reports = () => {
 
       <div className="reports-section">
         <div className="view-toggle">
-          <Tabs
-            defaultActiveKey="type"
-            activeKey={view}
-            onChange={setView}
-            items={[
-              { key: "type", label: "By Type", children: renderByType() },
-              { key: "team", label: "By Team", children: renderByTeam() },
-            ]}
-          />
+          <div className="reports-section-header">
+            <Tabs
+              defaultActiveKey="type"
+              activeKey={view}
+              onChange={setView}
+              tabBarExtraContent={
+                <Button
+                  type="primary"
+                  icon={<FilePdfOutlined />}
+                  onClick={generateCatalogue}
+                  className="generate-posters-catalogue-btn"
+                >
+                  Generate Catalogue
+                </Button>
+              }
+              items={[
+                { key: "type", label: "By Type", children: renderByType() },
+                { key: "team", label: "By Team", children: renderByTeam() },
+              ]}
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -18,7 +18,8 @@ const {
   updateReportStatus,
   deleteReport,
   getAllLatestReports,
-  getTutorTeamsReports
+  getTutorTeamsReports,
+  generateCombinedCatalogue
 } = require('../controllers/reportController');
 
 const router = express.Router();
@@ -31,5 +32,8 @@ router.get('/tutor/:tutorId', getTutorTeamsReports);
 
 router.patch('/:id', updateReportStatus);
 router.delete('/:id', deleteReport);
+
+router.get('/generate-catalogue', generateCombinedCatalogue);
+// router.get('/generate-article-catalogue', generateArticleCatalogue);
 
 module.exports = router;

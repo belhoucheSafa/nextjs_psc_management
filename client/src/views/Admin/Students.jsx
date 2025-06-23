@@ -115,7 +115,6 @@ const columns = [
   },
 ];
 
-
 const Students = () => {
   const { styles } = useStyle();
   const [data, setData] = useState([]);
@@ -123,7 +122,6 @@ const Students = () => {
   const fileInputRef = useRef(null);
 
   useEffect(() => {
-    setLoading(true);
     axios
       .get("/students")
       .then((res) => {
@@ -137,7 +135,7 @@ const Students = () => {
               phone: stu.phone,
               speciality: stu.speciality,
               team: stu.team,
-              email:stu.email
+              email: stu.email,
             };
           });
 
@@ -149,8 +147,7 @@ const Students = () => {
       })
       .catch(() => {
         message.error("Error fetching students.");
-      })
-      .finally(() => setLoading(false));
+      });
   }, []);
 
   const handleFileUpload = (event) => {
@@ -183,12 +180,14 @@ const Students = () => {
       });
     };
 
+    // Start timer
+    const minLoadingTime = new Promise((resolve) => setTimeout(resolve, 9000));
+
     parseFile()
       .then(async (parsedData) => {
-        // Format data (filter out empty rows and keep required fields)
         const formatted = parsedData
           .filter((item) => item.id && item.firstName && item.lastName)
-          .map((item, index) => {
+          .map((item) => {
             const firstName = item.firstName?.toLowerCase().trim() || "";
             const lastName = item.lastName?.toLowerCase().trim() || "";
             const email = `${firstName}.${lastName}@polytechnicien.tn`;
@@ -200,19 +199,17 @@ const Students = () => {
               phone: item.phone || "",
               speciality: item.speciality || "",
               gender: item.gender || "",
-              email, 
+              email,
             };
           });
 
         setData(formatted);
 
-        // Send JSON to backend
         try {
-          const res = await axios.post(
-            "/students/import",
-            { students: formatted },
-            {}
-          );
+          const [res] = await Promise.all([
+            axios.post("/students/import", { students: formatted }),
+            minLoadingTime,
+          ]);
 
           if (res.data.status === "success") {
             message.success(
@@ -222,12 +219,14 @@ const Students = () => {
             message.error("Import failed.");
           }
         } catch (error) {
+          await minLoadingTime; // wait at least 5s before showing error
           message.error("Error importing students: " + error.message);
         } finally {
           setLoading(false);
         }
       })
-      .catch((err) => {
+      .catch(async (err) => {
+        await minLoadingTime;
         message.error("Failed to parse file: " + err.message);
         setLoading(false);
       });
